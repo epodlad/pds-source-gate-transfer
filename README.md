@@ -66,7 +66,9 @@ See `CODE_PROVENANCE.md` for information about the frozen scientific scripts inc
 
 ## Citation
 
-If you use this software or its derived products in scientific work, please cite the software release and the associated manuscript.
+If you use this software or its derived products in scientific work, please cite the archived software release and the associated manuscript.
+
+**Zenodo DOI (v1.0.0):** https://doi.org/10.5281/zenodo.22087646
 
 Citation metadata are provided in `CITATION.cff`.
 
