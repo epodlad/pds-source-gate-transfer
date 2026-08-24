@@ -1,0 +1,2202 @@
+{
+  "analysis_status": "frozen spatial-expansion sensitivity pilot",
+  "events": {
+    "fixed": {
+      "event9": {
+        "bff": {
+          "p_outward_order": 0.896146120643196,
+          "p_transport_25_300": 0.12503614340155514,
+          "p_common_residual_phase": 0.12320608538783809,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.040911535284189074,
+            "reforming_expanding_transport": 0.08412460811736606,
+            "outward_ordered_speed_indeterminate": 0.7711099772416408,
+            "timing_incoherent": 0.10385387935680401
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9210033518572838,
+          "median_zero_offset_x": 0.0235960242953277,
+          "nodes": [
+            {
+              "radius_rsun": 1.775,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9743829314844549,
+              "mode_min": -15.0,
+              "mean_min": -10.2878149685465,
+              "sigma_min": 28.178141294493226,
+              "q16_min": -45.0,
+              "q84_min": 15.0
+            },
+            {
+              "radius_rsun": 2.125,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.8747999744961055,
+              "mode_min": 0.0,
+              "mean_min": 4.113033967488728,
+              "sigma_min": 28.75360240846356,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.5,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.5487736315992376,
+              "mode_min": 0.0,
+              "mean_min": 4.99749823032278,
+              "sigma_min": 29.00510124524444,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.825,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.967206729218462,
+              "mode_min": -45.0,
+              "mean_min": -24.629757706889944,
+              "sigma_min": 29.92640830528479,
+              "q16_min": -60.0,
+              "q84_min": 0.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.775,
+              "vertex_radius_rsun": 1.75,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.10595714964567672,
+              "pb_x_response": 0.031628015624450445,
+              "coherent_x_response": 0.031628015624450445,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.125,
+              "vertex_radius_rsun": 2.1,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.09847746315234321,
+              "pb_x_response": 0.015564032966204955,
+              "coherent_x_response": 0.015564032966204955,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.5,
+              "vertex_radius_rsun": 2.575,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.05153872003219885,
+              "pb_x_response": 0.1345460980608605,
+              "coherent_x_response": 0.05153872003219885,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.825,
+              "vertex_radius_rsun": 2.8000000000000003,
+              "absolute_slope_rsun_per_degree": 0.025,
+              "tb_x_response": 0.02705774532052029,
+              "pb_x_response": -0.05665736243030145,
+              "coherent_x_response": -0.05665736243030145,
+              "sigma_r_rsun": 0.025
+            }
+          ],
+          "_area": {
+            "scheme": "fixed",
+            "nodes": [
+              1.775,
+              2.125,
+              2.5,
+              2.825
+            ],
+            "area_ratio": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "timing_sigma_min": [
+              15.0,
+              15.0,
+              15.0,
+              15.0
+            ],
+            "measured": [
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        "base60": {
+          "p_outward_order": 0.7864788673564939,
+          "p_transport_25_300": 0.2531810182347414,
+          "p_common_residual_phase": 0.11436930898688911,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.07030981781351692,
+            "reforming_expanding_transport": 0.18287120042122446,
+            "outward_ordered_speed_indeterminate": 0.5332978491217525,
+            "timing_incoherent": 0.213521132643506
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.959078742820004,
+          "median_zero_offset_x": 0.019373913402187512,
+          "nodes": [
+            {
+              "radius_rsun": 1.775,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9769224331306257,
+              "mode_min": -15.0,
+              "mean_min": -0.3903500378981928,
+              "sigma_min": 33.91257563821413,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.125,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.8133402298835675,
+              "mode_min": 0.0,
+              "mean_min": 1.1928751955042567,
+              "sigma_min": 33.287087376935965,
+              "q16_min": -45.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.5,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9412350525093824,
+              "mode_min": 0.0,
+              "mean_min": 6.939102235221487,
+              "sigma_min": 30.67139957706211,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.825,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9872216371621402,
+              "mode_min": 30.0,
+              "mean_min": 26.80036328833233,
+              "sigma_min": 22.65288696356714,
+              "q16_min": 15.0,
+              "q84_min": 45.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.775,
+              "vertex_radius_rsun": 1.7999999999999998,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.09649895202285318,
+              "pb_x_response": 0.10033725681487494,
+              "coherent_x_response": 0.09649895202285318,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.125,
+              "vertex_radius_rsun": 2.125,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": 0.06956312040267408,
+              "pb_x_response": 0.02998139075450829,
+              "coherent_x_response": 0.02998139075450829,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.5,
+              "vertex_radius_rsun": 2.475,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.0013299796954522722,
+              "pb_x_response": 0.09026661147430677,
+              "coherent_x_response": 0.0013299796954522722,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.825,
+              "vertex_radius_rsun": 2.75,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": 0.008766436049866738,
+              "pb_x_response": 0.04337667378001877,
+              "coherent_x_response": 0.008766436049866738,
+              "sigma_r_rsun": 0.025
+            }
+          ],
+          "_area": {
+            "scheme": "fixed",
+            "nodes": [
+              1.775,
+              2.125,
+              2.5,
+              2.825
+            ],
+            "area_ratio": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "timing_sigma_min": [
+              15.0,
+              15.0,
+              15.0,
+              15.0
+            ],
+            "measured": [
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        "nrgf60": {
+          "p_outward_order": 0.8172379922054146,
+          "p_transport_25_300": 0.23460688481945913,
+          "p_common_residual_phase": 0.1453966530961398,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.08427468626141554,
+            "reforming_expanding_transport": 0.15033219855804356,
+            "outward_ordered_speed_indeterminate": 0.5826311073859556,
+            "timing_incoherent": 0.18276200779458543
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.8806463468765604,
+          "median_zero_offset_x": 0.004888746618320485,
+          "nodes": [
+            {
+              "radius_rsun": 1.775,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.7948097470432332,
+              "mode_min": 0.0,
+              "mean_min": -0.45005324070060104,
+              "sigma_min": 28.809316056768374,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.125,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.8436555380899847,
+              "mode_min": 0.0,
+              "mean_min": 2.5979468740758294,
+              "sigma_min": 32.535114397426,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.5,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9176371556631362,
+              "mode_min": 0.0,
+              "mean_min": 5.490701859667416,
+              "sigma_min": 30.095270551720713,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.825,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9911665612648188,
+              "mode_min": 30.0,
+              "mean_min": 16.4938783849817,
+              "sigma_min": 31.583737057086754,
+              "q16_min": -15.0,
+              "q84_min": 45.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.775,
+              "vertex_radius_rsun": 1.7249999999999999,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": -0.00276086912670645,
+              "pb_x_response": 0.2502171093549773,
+              "coherent_x_response": -0.00276086912670645,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.125,
+              "vertex_radius_rsun": 2.125,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": 0.05573753882123651,
+              "pb_x_response": 0.04024544578047406,
+              "coherent_x_response": 0.04024544578047406,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.5,
+              "vertex_radius_rsun": 2.475,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.01253836236334742,
+              "pb_x_response": 0.07171660978097179,
+              "coherent_x_response": 0.01253836236334742,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.825,
+              "vertex_radius_rsun": 2.75,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": -0.032490022096831474,
+              "pb_x_response": 0.045819014903736875,
+              "coherent_x_response": -0.032490022096831474,
+              "sigma_r_rsun": 0.025
+            }
+          ],
+          "_area": {
+            "scheme": "fixed",
+            "nodes": [
+              1.775,
+              2.125,
+              2.5,
+              2.825
+            ],
+            "area_ratio": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "timing_sigma_min": [
+              15.0,
+              15.0,
+              15.0,
+              15.0
+            ],
+            "measured": [
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        }
+      },
+      "event12": {
+        "bff": {
+          "p_outward_order": 0.6967746186578949,
+          "p_transport_25_300": 0.47930603206421374,
+          "p_common_residual_phase": 0.23438341093447085,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.20189431369203142,
+            "reforming_expanding_transport": 0.27741171837218226,
+            "outward_ordered_speed_indeterminate": 0.2174685865936813,
+            "timing_incoherent": 0.30322538134210497
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.7979856721254608,
+          "median_zero_offset_x": 0.05026724447502835,
+          "nodes": [
+            {
+              "radius_rsun": 1.95,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.7979856721254608,
+              "mode_min": 45.0,
+              "mean_min": 1.1917422201997168,
+              "sigma_min": 37.92644677342289,
+              "q16_min": -45.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.35,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.7438892561407835,
+              "mode_min": 0.0,
+              "mean_min": -9.164101380082275,
+              "sigma_min": 31.31061057355508,
+              "q16_min": -45.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.7,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9957779750264838,
+              "mode_min": 15.0,
+              "mean_min": 11.466708024246639,
+              "sigma_min": 29.00884437591387,
+              "q16_min": -15.0,
+              "q84_min": 45.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.95,
+              "vertex_radius_rsun": 2.025,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.023935525439166033,
+              "pb_x_response": 0.07037422884063971,
+              "coherent_x_response": 0.023935525439166033,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.35,
+              "vertex_radius_rsun": 2.3000000000000003,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": 0.05026724447502835,
+              "pb_x_response": 0.11718091570453858,
+              "coherent_x_response": 0.05026724447502835,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.7,
+              "vertex_radius_rsun": 2.7,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.09331541818601695,
+              "pb_x_response": 0.15277969890468052,
+              "coherent_x_response": 0.09331541818601695,
+              "sigma_r_rsun": 0.025
+            }
+          ],
+          "_area": {
+            "scheme": "fixed",
+            "nodes": [
+              1.95,
+              2.35,
+              2.7
+            ],
+            "area_ratio": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "timing_sigma_min": [
+              15.0,
+              15.0,
+              15.0
+            ],
+            "measured": [
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        "base60": {
+          "p_outward_order": 0.6082553460853812,
+          "p_transport_25_300": 0.39025513819266744,
+          "p_common_residual_phase": 0.3229726659202275,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.2570110367680687,
+            "reforming_expanding_transport": 0.13324410142459867,
+            "outward_ordered_speed_indeterminate": 0.21800020789271393,
+            "timing_incoherent": 0.39174465391461877
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9540169794970537,
+          "median_zero_offset_x": 0.061558578180503955,
+          "nodes": [
+            {
+              "radius_rsun": 1.95,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9540169794970537,
+              "mode_min": 0.0,
+              "mean_min": 5.494595159298677,
+              "sigma_min": 33.283941958982886,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.35,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9171063073894619,
+              "mode_min": 15.0,
+              "mean_min": 7.968376932724182,
+              "sigma_min": 24.884283426424496,
+              "q16_min": -15.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.7,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.957199112560409,
+              "mode_min": 0.0,
+              "mean_min": -8.805306570895478,
+              "sigma_min": 28.701684183891082,
+              "q16_min": -45.0,
+              "q84_min": 15.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.95,
+              "vertex_radius_rsun": 1.875,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.029377308850241344,
+              "pb_x_response": 0.0031233943169942796,
+              "coherent_x_response": 0.0031233943169942796,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.35,
+              "vertex_radius_rsun": 2.375,
+              "absolute_slope_rsun_per_degree": 0.0625,
+              "tb_x_response": 0.06576979379389992,
+              "pb_x_response": 0.061558578180503955,
+              "coherent_x_response": 0.061558578180503955,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.7,
+              "vertex_radius_rsun": 2.725,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.2577694560243248,
+              "pb_x_response": 0.1479715435692553,
+              "coherent_x_response": 0.1479715435692553,
+              "sigma_r_rsun": 0.025
+            }
+          ],
+          "_area": {
+            "scheme": "fixed",
+            "nodes": [
+              1.95,
+              2.35,
+              2.7
+            ],
+            "area_ratio": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "timing_sigma_min": [
+              15.0,
+              15.0,
+              15.0
+            ],
+            "measured": [
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        "nrgf60": {
+          "p_outward_order": 0.63734598187716,
+          "p_transport_25_300": 0.41929919056521925,
+          "p_common_residual_phase": 0.3410984356523341,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.27690891354087865,
+            "reforming_expanding_transport": 0.14239027702434057,
+            "outward_ordered_speed_indeterminate": 0.2180467913119407,
+            "timing_incoherent": 0.36265401812284004
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9711538565679962,
+          "median_zero_offset_x": 0.08515274808089576,
+          "nodes": [
+            {
+              "radius_rsun": 1.95,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9821415352949765,
+              "mode_min": 0.0,
+              "mean_min": 5.123687729069345,
+              "sigma_min": 32.48182550202064,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.35,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9463935684617502,
+              "mode_min": 0.0,
+              "mean_min": 6.057886184357479,
+              "sigma_min": 26.432253484900013,
+              "q16_min": -15.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.7,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9711538565679962,
+              "mode_min": 0.0,
+              "mean_min": -6.532808912692566,
+              "sigma_min": 28.01899458729022,
+              "q16_min": -30.0,
+              "q84_min": 15.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.95,
+              "vertex_radius_rsun": 1.875,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.04362084960672997,
+              "pb_x_response": 0.019123875531370377,
+              "coherent_x_response": 0.019123875531370377,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.35,
+              "vertex_radius_rsun": 2.375,
+              "absolute_slope_rsun_per_degree": 0.0625,
+              "tb_x_response": 0.08515274808089576,
+              "pb_x_response": 0.0921736952294416,
+              "coherent_x_response": 0.08515274808089576,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.7,
+              "vertex_radius_rsun": 2.725,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.223527939739472,
+              "pb_x_response": 0.16372752251746206,
+              "coherent_x_response": 0.16372752251746206,
+              "sigma_r_rsun": 0.025
+            }
+          ],
+          "_area": {
+            "scheme": "fixed",
+            "nodes": [
+              1.95,
+              2.35,
+              2.7
+            ],
+            "area_ratio": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "timing_sigma_min": [
+              15.0,
+              15.0,
+              15.0
+            ],
+            "measured": [
+              false,
+              false,
+              false
+            ]
+          }
+        }
+      }
+    },
+    "spherical": {
+      "event9": {
+        "bff": {
+          "p_outward_order": 0.8587716272017121,
+          "p_transport_25_300": 0.12263069968117611,
+          "p_common_residual_phase": 0.11312652459481165,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.03449845130247038,
+            "reforming_expanding_transport": 0.08813224837870573,
+            "outward_ordered_speed_indeterminate": 0.7361409275205361,
+            "timing_incoherent": 0.14122837279828787
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9019353169037048,
+          "median_zero_offset_x": 0.03140529616934084,
+          "nodes": [
+            {
+              "radius_rsun": 1.775,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9494480888067371,
+              "mode_min": -15.0,
+              "mean_min": -7.039158085402354,
+              "sigma_min": 31.403977008634453,
+              "q16_min": -45.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.125,
+              "area_ratio": 1.4332473715532632,
+              "timing_sigma_min": 17.95774647887324,
+              "spatial_sigma_rsun": 0.029929577464788734,
+              "tb_pb_overlap": 0.8921935718357481,
+              "mode_min": 0.0,
+              "mean_min": 3.0490441760073206,
+              "sigma_min": 29.205973310888545,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.5,
+              "area_ratio": 1.9837333862328907,
+              "timing_sigma_min": 21.126760563380284,
+              "spatial_sigma_rsun": 0.035211267605633804,
+              "tb_pb_overlap": 0.9116770619716615,
+              "mode_min": 15.0,
+              "mean_min": 4.1237588666278375,
+              "sigma_min": 34.27752615167172,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.825,
+              "area_ratio": 2.533029160880778,
+              "timing_sigma_min": 23.87323943661972,
+              "spatial_sigma_rsun": 0.0397887323943662,
+              "tb_pb_overlap": 0.8702236946243322,
+              "mode_min": -45.0,
+              "mean_min": -21.747325062450006,
+              "sigma_min": 30.051648820516064,
+              "q16_min": -45.0,
+              "q84_min": 15.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.775,
+              "vertex_radius_rsun": 1.7249999999999999,
+              "absolute_slope_rsun_per_degree": 0.0625,
+              "tb_x_response": 0.08897618528142483,
+              "pb_x_response": 0.025702276729488126,
+              "coherent_x_response": 0.025702276729488126,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.125,
+              "vertex_radius_rsun": 2.1,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.09450031854842954,
+              "pb_x_response": 0.03710831560919355,
+              "coherent_x_response": 0.03710831560919355,
+              "sigma_r_rsun": 0.029929577464788734
+            },
+            {
+              "nominal_radius_rsun": 2.5,
+              "vertex_radius_rsun": 2.475,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.06722596735296231,
+              "pb_x_response": 0.0421971399428398,
+              "coherent_x_response": 0.0421971399428398,
+              "sigma_r_rsun": 0.035211267605633804
+            },
+            {
+              "nominal_radius_rsun": 2.825,
+              "vertex_radius_rsun": 2.875,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": -0.0038060956339524615,
+              "pb_x_response": 0.0041804935112589,
+              "coherent_x_response": -0.0038060956339524615,
+              "sigma_r_rsun": 0.0397887323943662
+            }
+          ],
+          "_area": {
+            "scheme": "spherical",
+            "nodes": [
+              1.775,
+              2.125,
+              2.5,
+              2.825
+            ],
+            "area_ratio": [
+              1.0,
+              1.4332473715532632,
+              1.9837333862328907,
+              2.533029160880778
+            ],
+            "timing_sigma_min": [
+              15.0,
+              17.95774647887324,
+              21.126760563380284,
+              23.87323943661972
+            ],
+            "measured": [
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        "base60": {
+          "p_outward_order": 0.8146804329855326,
+          "p_transport_25_300": 0.23198343183057443,
+          "p_common_residual_phase": 0.1226710289724782,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.06720498699816574,
+            "reforming_expanding_transport": 0.1647784448324087,
+            "outward_ordered_speed_indeterminate": 0.5826970011549581,
+            "timing_incoherent": 0.1853195670144676
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9587349387456084,
+          "median_zero_offset_x": 0.007312284222438612,
+          "nodes": [
+            {
+              "radius_rsun": 1.775,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9751244614999458,
+              "mode_min": -15.0,
+              "mean_min": -0.06819328215587728,
+              "sigma_min": 34.10701682450951,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.125,
+              "area_ratio": 1.4332473715532632,
+              "timing_sigma_min": 17.95774647887324,
+              "spatial_sigma_rsun": 0.029929577464788734,
+              "tb_pb_overlap": 0.8146727181190385,
+              "mode_min": 15.0,
+              "mean_min": 6.387224434455246,
+              "sigma_min": 32.8707774122803,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.5,
+              "area_ratio": 1.9837333862328907,
+              "timing_sigma_min": 21.126760563380284,
+              "spatial_sigma_rsun": 0.035211267605633804,
+              "tb_pb_overlap": 0.9423454159912711,
+              "mode_min": 0.0,
+              "mean_min": 2.1936298000655667,
+              "sigma_min": 29.647012957260497,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.825,
+              "area_ratio": 2.533029160880778,
+              "timing_sigma_min": 23.87323943661972,
+              "spatial_sigma_rsun": 0.0397887323943662,
+              "tb_pb_overlap": 0.9759604418932888,
+              "mode_min": 30.0,
+              "mean_min": 16.804915601503467,
+              "sigma_min": 29.812328481169207,
+              "q16_min": -15.0,
+              "q84_min": 45.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.775,
+              "vertex_radius_rsun": 1.7999999999999998,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.09206524850409735,
+              "pb_x_response": 0.09880786022524371,
+              "coherent_x_response": 0.09206524850409735,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.125,
+              "vertex_radius_rsun": 2.125,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": 0.03755519140703885,
+              "pb_x_response": 0.007600697826250195,
+              "coherent_x_response": 0.007600697826250195,
+              "sigma_r_rsun": 0.029929577464788734
+            },
+            {
+              "nominal_radius_rsun": 2.5,
+              "vertex_radius_rsun": 2.475,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": -0.007322294648531672,
+              "pb_x_response": 0.12100242482678254,
+              "coherent_x_response": -0.007322294648531672,
+              "sigma_r_rsun": 0.035211267605633804
+            },
+            {
+              "nominal_radius_rsun": 2.825,
+              "vertex_radius_rsun": 2.75,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": 0.016504996070703208,
+              "pb_x_response": 0.00702387061862703,
+              "coherent_x_response": 0.00702387061862703,
+              "sigma_r_rsun": 0.0397887323943662
+            }
+          ],
+          "_area": {
+            "scheme": "spherical",
+            "nodes": [
+              1.775,
+              2.125,
+              2.5,
+              2.825
+            ],
+            "area_ratio": [
+              1.0,
+              1.4332473715532632,
+              1.9837333862328907,
+              2.533029160880778
+            ],
+            "timing_sigma_min": [
+              15.0,
+              17.95774647887324,
+              21.126760563380284,
+              23.87323943661972
+            ],
+            "measured": [
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        "nrgf60": {
+          "p_outward_order": 0.7996776338089122,
+          "p_transport_25_300": 0.19268845087247308,
+          "p_common_residual_phase": 0.147035712272801,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.06962651348926431,
+            "reforming_expanding_transport": 0.12306193738320878,
+            "outward_ordered_speed_indeterminate": 0.606989182936439,
+            "timing_incoherent": 0.20032236619108795
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.879215948280099,
+          "median_zero_offset_x": 0.0105602041894249,
+          "nodes": [
+            {
+              "radius_rsun": 1.775,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.8090803390263338,
+              "mode_min": 0.0,
+              "mean_min": -0.9402249940620888,
+              "sigma_min": 29.68494945505304,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.125,
+              "area_ratio": 1.4332473715532632,
+              "timing_sigma_min": 17.95774647887324,
+              "spatial_sigma_rsun": 0.029929577464788734,
+              "tb_pb_overlap": 0.863310521454168,
+              "mode_min": 15.0,
+              "mean_min": 1.476213175253072,
+              "sigma_min": 34.271363579653745,
+              "q16_min": -45.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.5,
+              "area_ratio": 1.9837333862328907,
+              "timing_sigma_min": 21.126760563380284,
+              "spatial_sigma_rsun": 0.035211267605633804,
+              "tb_pb_overlap": 0.8951213751060301,
+              "mode_min": 0.0,
+              "mean_min": -1.2589197828046426,
+              "sigma_min": 29.210584350461534,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.825,
+              "area_ratio": 2.533029160880778,
+              "timing_sigma_min": 23.87323943661972,
+              "spatial_sigma_rsun": 0.0397887323943662,
+              "tb_pb_overlap": 0.9011428074099732,
+              "mode_min": 0.0,
+              "mean_min": 5.139139577060789,
+              "sigma_min": 31.839575279106583,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.775,
+              "vertex_radius_rsun": 1.7249999999999999,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": -0.01303932084282422,
+              "pb_x_response": 0.24657280186958028,
+              "coherent_x_response": -0.01303932084282422,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.125,
+              "vertex_radius_rsun": 2.125,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": 0.02824956933210032,
+              "pb_x_response": 0.01676326020157009,
+              "coherent_x_response": 0.01676326020157009,
+              "sigma_r_rsun": 0.029929577464788734
+            },
+            {
+              "nominal_radius_rsun": 2.5,
+              "vertex_radius_rsun": 2.475,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.006706276780823773,
+              "pb_x_response": 0.1114978357405112,
+              "coherent_x_response": 0.006706276780823773,
+              "sigma_r_rsun": 0.035211267605633804
+            },
+            {
+              "nominal_radius_rsun": 2.825,
+              "vertex_radius_rsun": 2.875,
+              "absolute_slope_rsun_per_degree": 0.025,
+              "tb_x_response": 0.08056813310394831,
+              "pb_x_response": 0.014414131598026025,
+              "coherent_x_response": 0.014414131598026025,
+              "sigma_r_rsun": 0.0397887323943662
+            }
+          ],
+          "_area": {
+            "scheme": "spherical",
+            "nodes": [
+              1.775,
+              2.125,
+              2.5,
+              2.825
+            ],
+            "area_ratio": [
+              1.0,
+              1.4332473715532632,
+              1.9837333862328907,
+              2.533029160880778
+            ],
+            "timing_sigma_min": [
+              15.0,
+              17.95774647887324,
+              21.126760563380284,
+              23.87323943661972
+            ],
+            "measured": [
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        }
+      },
+      "event12": {
+        "bff": {
+          "p_outward_order": 0.6061409452050817,
+          "p_transport_25_300": 0.3626408487198869,
+          "p_common_residual_phase": 0.26037596901085674,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.21484105549202276,
+            "reforming_expanding_transport": 0.14779979322786413,
+            "outward_ordered_speed_indeterminate": 0.2435000964851948,
+            "timing_incoherent": 0.3938590547949183
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.8297652035922516,
+          "median_zero_offset_x": 0.05573217248994062,
+          "nodes": [
+            {
+              "radius_rsun": 1.95,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.63695838870013,
+              "mode_min": 45.0,
+              "mean_min": 19.01240718189765,
+              "sigma_min": 30.80309774109927,
+              "q16_min": -15.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.35,
+              "area_ratio": 1.4523339907955297,
+              "timing_sigma_min": 18.07692307692308,
+              "spatial_sigma_rsun": 0.030128205128205132,
+              "tb_pb_overlap": 0.8297652035922516,
+              "mode_min": 0.0,
+              "mean_min": -5.233497484263891,
+              "sigma_min": 32.10973847367673,
+              "q16_min": -45.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.7,
+              "area_ratio": 1.91715976331361,
+              "timing_sigma_min": 20.769230769230774,
+              "spatial_sigma_rsun": 0.034615384615384624,
+              "tb_pb_overlap": 0.9985396031375925,
+              "mode_min": 15.0,
+              "mean_min": 11.614653666469497,
+              "sigma_min": 30.233813312115487,
+              "q16_min": -15.0,
+              "q84_min": 45.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.95,
+              "vertex_radius_rsun": 1.925,
+              "absolute_slope_rsun_per_degree": 0.025,
+              "tb_x_response": 0.020903040207179615,
+              "pb_x_response": 0.05159112493764741,
+              "coherent_x_response": 0.020903040207179615,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.35,
+              "vertex_radius_rsun": 2.3000000000000003,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": 0.05573217248994062,
+              "pb_x_response": 0.08211851616718661,
+              "coherent_x_response": 0.05573217248994062,
+              "sigma_r_rsun": 0.030128205128205132
+            },
+            {
+              "nominal_radius_rsun": 2.7,
+              "vertex_radius_rsun": 2.7,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.07892471399714614,
+              "pb_x_response": 0.16014375410355666,
+              "coherent_x_response": 0.07892471399714614,
+              "sigma_r_rsun": 0.034615384615384624
+            }
+          ],
+          "_area": {
+            "scheme": "spherical",
+            "nodes": [
+              1.95,
+              2.35,
+              2.7
+            ],
+            "area_ratio": [
+              1.0,
+              1.4523339907955297,
+              1.91715976331361
+            ],
+            "timing_sigma_min": [
+              15.0,
+              18.07692307692308,
+              20.769230769230774
+            ],
+            "measured": [
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        "base60": {
+          "p_outward_order": 0.5626457838099419,
+          "p_transport_25_300": 0.35211854335309856,
+          "p_common_residual_phase": 0.28079211081887157,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.2208503914528948,
+            "reforming_expanding_transport": 0.1312681519002037,
+            "outward_ordered_speed_indeterminate": 0.21052724045684343,
+            "timing_incoherent": 0.4373542161900581
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9610101458936808,
+          "median_zero_offset_x": 0.035962517618512733,
+          "nodes": [
+            {
+              "radius_rsun": 1.95,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9573635486567897,
+              "mode_min": 0.0,
+              "mean_min": 6.303105676404185,
+              "sigma_min": 33.485010957878586,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.35,
+              "area_ratio": 1.4523339907955297,
+              "timing_sigma_min": 18.07692307692308,
+              "spatial_sigma_rsun": 0.030128205128205132,
+              "tb_pb_overlap": 0.9610101458936808,
+              "mode_min": 15.0,
+              "mean_min": 8.433604243183979,
+              "sigma_min": 29.114436798907903,
+              "q16_min": -15.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.7,
+              "area_ratio": 1.91715976331361,
+              "timing_sigma_min": 20.769230769230774,
+              "spatial_sigma_rsun": 0.034615384615384624,
+              "tb_pb_overlap": 0.9685911856102383,
+              "mode_min": -15.0,
+              "mean_min": -8.76203892082199,
+              "sigma_min": 30.32096897960686,
+              "q16_min": -45.0,
+              "q84_min": 30.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.95,
+              "vertex_radius_rsun": 1.875,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.022084880957692454,
+              "pb_x_response": 0.0022987531655290056,
+              "coherent_x_response": 0.0022987531655290056,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.35,
+              "vertex_radius_rsun": 2.375,
+              "absolute_slope_rsun_per_degree": 0.0625,
+              "tb_x_response": 0.0604990383618665,
+              "pb_x_response": 0.035962517618512733,
+              "coherent_x_response": 0.035962517618512733,
+              "sigma_r_rsun": 0.030128205128205132
+            },
+            {
+              "nominal_radius_rsun": 2.7,
+              "vertex_radius_rsun": 2.725,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.19304325689575366,
+              "pb_x_response": 0.09221839245541458,
+              "coherent_x_response": 0.09221839245541458,
+              "sigma_r_rsun": 0.034615384615384624
+            }
+          ],
+          "_area": {
+            "scheme": "spherical",
+            "nodes": [
+              1.95,
+              2.35,
+              2.7
+            ],
+            "area_ratio": [
+              1.0,
+              1.4523339907955297,
+              1.91715976331361
+            ],
+            "timing_sigma_min": [
+              15.0,
+              18.07692307692308,
+              20.769230769230774
+            ],
+            "measured": [
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        "nrgf60": {
+          "p_outward_order": 0.7026885881181377,
+          "p_transport_25_300": 0.47400748877192644,
+          "p_common_residual_phase": 0.3598289684005178,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.29898950754811726,
+            "reforming_expanding_transport": 0.17501798122380924,
+            "outward_ordered_speed_indeterminate": 0.22868109934621125,
+            "timing_incoherent": 0.2973114118818624
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9545199535013059,
+          "median_zero_offset_x": 0.06495399948653059,
+          "nodes": [
+            {
+              "radius_rsun": 1.95,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9829866873276125,
+              "mode_min": 0.0,
+              "mean_min": 5.618599162885545,
+              "sigma_min": 32.47763841095172,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.35,
+              "area_ratio": 1.4523339907955297,
+              "timing_sigma_min": 18.07692307692308,
+              "spatial_sigma_rsun": 0.030128205128205132,
+              "tb_pb_overlap": 0.9065156322616544,
+              "mode_min": 0.0,
+              "mean_min": 3.5720260730072644,
+              "sigma_min": 25.81074157920237,
+              "q16_min": -15.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.7,
+              "area_ratio": 1.91715976331361,
+              "timing_sigma_min": 20.769230769230774,
+              "spatial_sigma_rsun": 0.034615384615384624,
+              "tb_pb_overlap": 0.9545199535013059,
+              "mode_min": 0.0,
+              "mean_min": 0.3855960933922582,
+              "sigma_min": 27.57411395789478,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.95,
+              "vertex_radius_rsun": 1.875,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.03753899454049503,
+              "pb_x_response": 0.018734778590243292,
+              "coherent_x_response": 0.018734778590243292,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.35,
+              "vertex_radius_rsun": 2.375,
+              "absolute_slope_rsun_per_degree": 0.0625,
+              "tb_x_response": 0.0790248633105884,
+              "pb_x_response": 0.06495399948653059,
+              "coherent_x_response": 0.06495399948653059,
+              "sigma_r_rsun": 0.030128205128205132
+            },
+            {
+              "nominal_radius_rsun": 2.7,
+              "vertex_radius_rsun": 2.75,
+              "absolute_slope_rsun_per_degree": 0.0625,
+              "tb_x_response": 0.16441507546072565,
+              "pb_x_response": 0.10993718063038899,
+              "coherent_x_response": 0.10993718063038899,
+              "sigma_r_rsun": 0.034615384615384624
+            }
+          ],
+          "_area": {
+            "scheme": "spherical",
+            "nodes": [
+              1.95,
+              2.35,
+              2.7
+            ],
+            "area_ratio": [
+              1.0,
+              1.4523339907955297,
+              1.91715976331361
+            ],
+            "timing_sigma_min": [
+              15.0,
+              18.07692307692308,
+              20.769230769230774
+            ],
+            "measured": [
+              false,
+              false,
+              false
+            ]
+          }
+        }
+      }
+    },
+    "measured": {
+      "event9": {
+        "bff": {
+          "p_outward_order": 0.8592815891591046,
+          "p_transport_25_300": 0.20219206085292188,
+          "p_common_residual_phase": 0.12598399337017796,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.058155829877566775,
+            "reforming_expanding_transport": 0.14403623097535512,
+            "outward_ordered_speed_indeterminate": 0.6570895283061828,
+            "timing_incoherent": 0.14071841084089526
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9110411065404085,
+          "median_zero_offset_x": 0.026016561304994135,
+          "nodes": [
+            {
+              "radius_rsun": 1.775,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9091097414902054,
+              "mode_min": -15.0,
+              "mean_min": -3.5259785662274488,
+              "sigma_min": 29.85489349526374,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.125,
+              "area_ratio": 2.570830281213388,
+              "timing_sigma_min": 24.05071336307953,
+              "spatial_sigma_rsun": 0.04008452227179922,
+              "tb_pb_overlap": 0.9129724715906117,
+              "mode_min": 0.0,
+              "mean_min": 5.984826459905454,
+              "sigma_min": 30.23963458445405,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.5,
+              "area_ratio": 1.736635666163627,
+              "timing_sigma_min": 19.767220970253156,
+              "spatial_sigma_rsun": 0.032945368283755265,
+              "tb_pb_overlap": 0.8357179980488825,
+              "mode_min": 15.0,
+              "mean_min": 3.600992160243444,
+              "sigma_min": 35.683326690496,
+              "q16_min": -45.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.825,
+              "area_ratio": 3.1577945354222448,
+              "timing_sigma_min": 26.65527659713936,
+              "spatial_sigma_rsun": 0.044425460995232265,
+              "tb_pb_overlap": 0.9686879147373461,
+              "mode_min": 0.0,
+              "mean_min": -1.7243242107888732,
+              "sigma_min": 32.7685933838779,
+              "q16_min": -45.0,
+              "q84_min": 30.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.775,
+              "vertex_radius_rsun": 1.7249999999999999,
+              "absolute_slope_rsun_per_degree": 0.0625,
+              "tb_x_response": 0.05572985634216674,
+              "pb_x_response": 0.060135648903594005,
+              "coherent_x_response": 0.05572985634216674,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.125,
+              "vertex_radius_rsun": 2.1,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.11641045658739009,
+              "pb_x_response": 0.037559821160560114,
+              "coherent_x_response": 0.037559821160560114,
+              "sigma_r_rsun": 0.04008452227179922
+            },
+            {
+              "nominal_radius_rsun": 2.5,
+              "vertex_radius_rsun": 2.475,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.04895539506212117,
+              "pb_x_response": 0.014473301449428159,
+              "coherent_x_response": 0.014473301449428159,
+              "sigma_r_rsun": 0.032945368283755265
+            },
+            {
+              "nominal_radius_rsun": 2.825,
+              "vertex_radius_rsun": 2.875,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.022056584082890587,
+              "pb_x_response": 0.001499958587306625,
+              "coherent_x_response": 0.001499958587306625,
+              "sigma_r_rsun": 0.044425460995232265
+            }
+          ],
+          "_area": {
+            "scheme": "measured",
+            "nodes": [
+              1.775,
+              2.125,
+              2.5,
+              2.825
+            ],
+            "area_ratio": [
+              1.0,
+              2.570830281213388,
+              1.736635666163627,
+              3.1577945354222448
+            ],
+            "timing_sigma_min": [
+              15.0,
+              24.05071336307953,
+              19.767220970253156,
+              26.65527659713936
+            ],
+            "measured": [
+              true,
+              true,
+              true,
+              true
+            ]
+          }
+        },
+        "base60": {
+          "p_outward_order": 0.8059225451833842,
+          "p_transport_25_300": 0.16959409137014853,
+          "p_common_residual_phase": 0.1147964997492803,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.04762412012552803,
+            "reforming_expanding_transport": 0.12196997124462045,
+            "outward_ordered_speed_indeterminate": 0.6363284538132357,
+            "timing_incoherent": 0.19407745481661587
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9678149475042166,
+          "median_zero_offset_x": 0.01033244613736586,
+          "nodes": [
+            {
+              "radius_rsun": 1.775,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.95839873069167,
+              "mode_min": -15.0,
+              "mean_min": 0.8090336067117088,
+              "sigma_min": 34.025351395220824,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.125,
+              "area_ratio": 2.570830281213388,
+              "timing_sigma_min": 24.05071336307953,
+              "spatial_sigma_rsun": 0.04008452227179922,
+              "tb_pb_overlap": 0.8568032589034728,
+              "mode_min": 15.0,
+              "mean_min": 5.856973306820873,
+              "sigma_min": 33.311269254808664,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.5,
+              "area_ratio": 1.736635666163627,
+              "timing_sigma_min": 19.767220970253156,
+              "spatial_sigma_rsun": 0.032945368283755265,
+              "tb_pb_overlap": 0.977231164316763,
+              "mode_min": 0.0,
+              "mean_min": 1.9162113276522224,
+              "sigma_min": 32.13410680677091,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.825,
+              "area_ratio": 3.1577945354222448,
+              "timing_sigma_min": 26.65527659713936,
+              "spatial_sigma_rsun": 0.044425460995232265,
+              "tb_pb_overlap": 0.9996185127130917,
+              "mode_min": -15.0,
+              "mean_min": -7.405632732941774,
+              "sigma_min": 32.85260570052256,
+              "q16_min": -45.0,
+              "q84_min": 30.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.775,
+              "vertex_radius_rsun": 1.7999999999999998,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.09101947084140626,
+              "pb_x_response": 0.09434824084509447,
+              "coherent_x_response": 0.09101947084140626,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.125,
+              "vertex_radius_rsun": 2.125,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": 0.036945503242127184,
+              "pb_x_response": 0.010696893420703346,
+              "coherent_x_response": 0.010696893420703346,
+              "sigma_r_rsun": 0.04008452227179922
+            },
+            {
+              "nominal_radius_rsun": 2.5,
+              "vertex_radius_rsun": 2.5,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": -0.007709380535624971,
+              "pb_x_response": 0.209498961311142,
+              "coherent_x_response": -0.007709380535624971,
+              "sigma_r_rsun": 0.032945368283755265
+            },
+            {
+              "nominal_radius_rsun": 2.825,
+              "vertex_radius_rsun": 2.9000000000000004,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.009967998854028373,
+              "pb_x_response": 0.03337614766866259,
+              "coherent_x_response": 0.009967998854028373,
+              "sigma_r_rsun": 0.044425460995232265
+            }
+          ],
+          "_area": {
+            "scheme": "measured",
+            "nodes": [
+              1.775,
+              2.125,
+              2.5,
+              2.825
+            ],
+            "area_ratio": [
+              1.0,
+              2.570830281213388,
+              1.736635666163627,
+              3.1577945354222448
+            ],
+            "timing_sigma_min": [
+              15.0,
+              24.05071336307953,
+              19.767220970253156,
+              26.65527659713936
+            ],
+            "measured": [
+              true,
+              true,
+              true,
+              true
+            ]
+          }
+        },
+        "nrgf60": {
+          "p_outward_order": 0.7632723925010645,
+          "p_transport_25_300": 0.16367408368734143,
+          "p_common_residual_phase": 0.1371428695683394,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.0657272109566478,
+            "reforming_expanding_transport": 0.09794687273069363,
+            "outward_ordered_speed_indeterminate": 0.599598308813723,
+            "timing_incoherent": 0.23672760749893562
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9187144772694223,
+          "median_zero_offset_x": 0.007984775175772922,
+          "nodes": [
+            {
+              "radius_rsun": 1.775,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.8409324500560179,
+              "mode_min": 0.0,
+              "mean_min": 6.9331056636937465,
+              "sigma_min": 25.110997099397224,
+              "q16_min": -15.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.125,
+              "area_ratio": 2.570830281213388,
+              "timing_sigma_min": 24.05071336307953,
+              "spatial_sigma_rsun": 0.04008452227179922,
+              "tb_pb_overlap": 0.8768319534100794,
+              "mode_min": 0.0,
+              "mean_min": 1.566244879654822,
+              "sigma_min": 34.081862842891134,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.5,
+              "area_ratio": 1.736635666163627,
+              "timing_sigma_min": 19.767220970253156,
+              "spatial_sigma_rsun": 0.032945368283755265,
+              "tb_pb_overlap": 0.964904108547029,
+              "mode_min": 0.0,
+              "mean_min": 0.19134218654816326,
+              "sigma_min": 32.27683686146012,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.825,
+              "area_ratio": 3.1577945354222448,
+              "timing_sigma_min": 26.65527659713936,
+              "spatial_sigma_rsun": 0.044425460995232265,
+              "tb_pb_overlap": 0.9605970011287653,
+              "mode_min": 0.0,
+              "mean_min": 2.7059881712489595,
+              "sigma_min": 34.633528793812964,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.775,
+              "vertex_radius_rsun": 1.7,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": -0.011125697334801912,
+              "pb_x_response": 0.21403303678565333,
+              "coherent_x_response": -0.011125697334801912,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.125,
+              "vertex_radius_rsun": 2.125,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": 0.02906216143367132,
+              "pb_x_response": 0.018827177131548925,
+              "coherent_x_response": 0.018827177131548925,
+              "sigma_r_rsun": 0.04008452227179922
+            },
+            {
+              "nominal_radius_rsun": 2.5,
+              "vertex_radius_rsun": 2.5,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.0008633344152921403,
+              "pb_x_response": 0.20693525429979626,
+              "coherent_x_response": 0.0008633344152921403,
+              "sigma_r_rsun": 0.032945368283755265
+            },
+            {
+              "nominal_radius_rsun": 2.825,
+              "vertex_radius_rsun": 2.875,
+              "absolute_slope_rsun_per_degree": 0.025,
+              "tb_x_response": 0.05444075976921127,
+              "pb_x_response": 0.015106215936253702,
+              "coherent_x_response": 0.015106215936253702,
+              "sigma_r_rsun": 0.044425460995232265
+            }
+          ],
+          "_area": {
+            "scheme": "measured",
+            "nodes": [
+              1.775,
+              2.125,
+              2.5,
+              2.825
+            ],
+            "area_ratio": [
+              1.0,
+              2.570830281213388,
+              1.736635666163627,
+              3.1577945354222448
+            ],
+            "timing_sigma_min": [
+              15.0,
+              24.05071336307953,
+              19.767220970253156,
+              26.65527659713936
+            ],
+            "measured": [
+              true,
+              true,
+              true,
+              true
+            ]
+          }
+        }
+      },
+      "event12": {
+        "bff": {
+          "p_outward_order": 0.6121685268231926,
+          "p_transport_25_300": 0.36454597235610564,
+          "p_common_residual_phase": 0.2638204165006821,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.21360238525751024,
+            "reforming_expanding_transport": 0.1509435870985954,
+            "outward_ordered_speed_indeterminate": 0.24762255446708686,
+            "timing_incoherent": 0.38783147317680744
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.8531462255060449,
+          "median_zero_offset_x": 0.04105186288863879,
+          "nodes": [
+            {
+              "radius_rsun": 1.95,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.638933120701037,
+              "mode_min": 45.0,
+              "mean_min": 18.808226430868658,
+              "sigma_min": 30.841419728554765,
+              "q16_min": -15.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.35,
+              "area_ratio": 1.740678412592864,
+              "timing_sigma_min": 19.790215835947684,
+              "spatial_sigma_rsun": 0.032983693059912805,
+              "tb_pb_overlap": 0.8531462255060449,
+              "mode_min": 0.0,
+              "mean_min": -3.563495079723501,
+              "sigma_min": 33.440034865281014,
+              "q16_min": -45.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.7,
+              "area_ratio": 2.1925501388206596,
+              "timing_sigma_min": 22.210893301140512,
+              "spatial_sigma_rsun": 0.03701815550190085,
+              "tb_pb_overlap": 0.9920201176662005,
+              "mode_min": 15.0,
+              "mean_min": 13.721141160337694,
+              "sigma_min": 29.504934722171132,
+              "q16_min": -15.0,
+              "q84_min": 45.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.95,
+              "vertex_radius_rsun": 1.925,
+              "absolute_slope_rsun_per_degree": 0.025,
+              "tb_x_response": 0.02003191924339628,
+              "pb_x_response": 0.054242224564949704,
+              "coherent_x_response": 0.02003191924339628,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.35,
+              "vertex_radius_rsun": 2.3000000000000003,
+              "absolute_slope_rsun_per_degree": 0.075,
+              "tb_x_response": 0.04105186288863879,
+              "pb_x_response": 0.0716933158049629,
+              "coherent_x_response": 0.04105186288863879,
+              "sigma_r_rsun": 0.032983693059912805
+            },
+            {
+              "nominal_radius_rsun": 2.7,
+              "vertex_radius_rsun": 2.7,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.0727450857634978,
+              "pb_x_response": 0.16155877487331166,
+              "coherent_x_response": 0.0727450857634978,
+              "sigma_r_rsun": 0.03701815550190085
+            }
+          ],
+          "_area": {
+            "scheme": "measured",
+            "nodes": [
+              1.95,
+              2.35,
+              2.7
+            ],
+            "area_ratio": [
+              1.0,
+              1.740678412592864,
+              2.1925501388206596
+            ],
+            "timing_sigma_min": [
+              15.0,
+              19.790215835947684,
+              22.210893301140512
+            ],
+            "measured": [
+              true,
+              true,
+              true
+            ]
+          }
+        },
+        "base60": {
+          "p_outward_order": 0.5461424791735758,
+          "p_transport_25_300": 0.33828633877510533,
+          "p_common_residual_phase": 0.2693850954921288,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.21215793512988212,
+            "reforming_expanding_transport": 0.12612840364522318,
+            "outward_ordered_speed_indeterminate": 0.20785614039847047,
+            "timing_incoherent": 0.4538575208264244
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9661960746273274,
+          "median_zero_offset_x": 0.03279626099323191,
+          "nodes": [
+            {
+              "radius_rsun": 1.95,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9591279406707643,
+              "mode_min": 0.0,
+              "mean_min": 6.843743877468719,
+              "sigma_min": 33.59833491002433,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.35,
+              "area_ratio": 1.740678412592864,
+              "timing_sigma_min": 19.790215835947684,
+              "spatial_sigma_rsun": 0.032983693059912805,
+              "tb_pb_overlap": 0.9661960746273274,
+              "mode_min": 15.0,
+              "mean_min": 6.1944730020641146,
+              "sigma_min": 30.621350342086124,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.7,
+              "area_ratio": 2.1925501388206596,
+              "timing_sigma_min": 22.210893301140512,
+              "spatial_sigma_rsun": 0.03701815550190085,
+              "tb_pb_overlap": 0.9689172143467714,
+              "mode_min": -15.0,
+              "mean_min": -10.014988814963079,
+              "sigma_min": 30.51502788938059,
+              "q16_min": -45.0,
+              "q84_min": 15.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.95,
+              "vertex_radius_rsun": 1.875,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.017005371604191296,
+              "pb_x_response": 0.0016345239703605225,
+              "coherent_x_response": 0.0016345239703605225,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.35,
+              "vertex_radius_rsun": 2.375,
+              "absolute_slope_rsun_per_degree": 0.0625,
+              "tb_x_response": 0.0771017843185646,
+              "pb_x_response": 0.03279626099323191,
+              "coherent_x_response": 0.03279626099323191,
+              "sigma_r_rsun": 0.032983693059912805
+            },
+            {
+              "nominal_radius_rsun": 2.7,
+              "vertex_radius_rsun": 2.725,
+              "absolute_slope_rsun_per_degree": 0.05,
+              "tb_x_response": 0.20708820746497053,
+              "pb_x_response": 0.0767266452323338,
+              "coherent_x_response": 0.0767266452323338,
+              "sigma_r_rsun": 0.03701815550190085
+            }
+          ],
+          "_area": {
+            "scheme": "measured",
+            "nodes": [
+              1.95,
+              2.35,
+              2.7
+            ],
+            "area_ratio": [
+              1.0,
+              1.740678412592864,
+              2.1925501388206596
+            ],
+            "timing_sigma_min": [
+              15.0,
+              19.790215835947684,
+              22.210893301140512
+            ],
+            "measured": [
+              true,
+              true,
+              true
+            ]
+          }
+        },
+        "nrgf60": {
+          "p_outward_order": 0.6791280514866069,
+          "p_transport_25_300": 0.45189916249170636,
+          "p_common_residual_phase": 0.34101933680931446,
+          "scenario_probabilities": {
+            "coherent_expanding_transport": 0.28191490779159484,
+            "reforming_expanding_transport": 0.16998425470011147,
+            "outward_ordered_speed_indeterminate": 0.22722888899490065,
+            "timing_incoherent": 0.320871948513393
+          },
+          "classification": "outward_ordered_but_speed_indeterminate",
+          "median_tb_pb_overlap": 0.9652601026366563,
+          "median_zero_offset_x": 0.06076671742998986,
+          "nodes": [
+            {
+              "radius_rsun": 1.95,
+              "area_ratio": 1.0,
+              "timing_sigma_min": 15.0,
+              "spatial_sigma_rsun": 0.025,
+              "tb_pb_overlap": 0.9835103211182941,
+              "mode_min": 0.0,
+              "mean_min": 5.94752547132232,
+              "sigma_min": 32.50923471004897,
+              "q16_min": -30.0,
+              "q84_min": 45.0
+            },
+            {
+              "radius_rsun": 2.35,
+              "area_ratio": 1.740678412592864,
+              "timing_sigma_min": 19.790215835947684,
+              "spatial_sigma_rsun": 0.032983693059912805,
+              "tb_pb_overlap": 0.9157858463358102,
+              "mode_min": 0.0,
+              "mean_min": 3.1018754565303555,
+              "sigma_min": 27.158242354265095,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            },
+            {
+              "radius_rsun": 2.7,
+              "area_ratio": 2.1925501388206596,
+              "timing_sigma_min": 22.210893301140512,
+              "spatial_sigma_rsun": 0.03701815550190085,
+              "tb_pb_overlap": 0.9652601026366563,
+              "mode_min": 0.0,
+              "mean_min": -0.46742611228005027,
+              "sigma_min": 28.444444428715904,
+              "q16_min": -30.0,
+              "q84_min": 30.0
+            }
+          ],
+          "geometries": [
+            {
+              "nominal_radius_rsun": 1.95,
+              "vertex_radius_rsun": 1.875,
+              "absolute_slope_rsun_per_degree": 0.0375,
+              "tb_x_response": 0.03322175541239637,
+              "pb_x_response": 0.01847067405772348,
+              "coherent_x_response": 0.01847067405772348,
+              "sigma_r_rsun": 0.025
+            },
+            {
+              "nominal_radius_rsun": 2.35,
+              "vertex_radius_rsun": 2.375,
+              "absolute_slope_rsun_per_degree": 0.0625,
+              "tb_x_response": 0.09557896834844813,
+              "pb_x_response": 0.06076671742998986,
+              "coherent_x_response": 0.06076671742998986,
+              "sigma_r_rsun": 0.032983693059912805
+            },
+            {
+              "nominal_radius_rsun": 2.7,
+              "vertex_radius_rsun": 2.75,
+              "absolute_slope_rsun_per_degree": 0.0625,
+              "tb_x_response": 0.1605120847507379,
+              "pb_x_response": 0.1084961918053293,
+              "coherent_x_response": 0.1084961918053293,
+              "sigma_r_rsun": 0.03701815550190085
+            }
+          ],
+          "_area": {
+            "scheme": "measured",
+            "nodes": [
+              1.95,
+              2.35,
+              2.7
+            ],
+            "area_ratio": [
+              1.0,
+              1.740678412592864,
+              2.1925501388206596
+            ],
+            "timing_sigma_min": [
+              15.0,
+              19.790215835947684,
+              22.210893301140512
+            ],
+            "measured": [
+              true,
+              true,
+              true
+            ]
+          }
+        }
+      }
+    }
+  },
+  "pair_null": {
+    "fixed": {
+      "representations": {
+        "bff": {
+          "exceedances": 11,
+          "controls": 131,
+          "p_raw": 0.09090909090909091
+        },
+        "base60": {
+          "exceedances": 0,
+          "controls": 131,
+          "p_raw": 0.007575757575757576
+        },
+        "nrgf60": {
+          "exceedances": 0,
+          "controls": 131,
+          "p_raw": 0.007575757575757576
+        }
+      },
+      "primary_pair_exceedances": 0,
+      "primary_pair_p_raw": 0.007575757575757576
+    },
+    "spherical": {
+      "representations": {
+        "bff": {
+          "exceedances": 23,
+          "controls": 131,
+          "p_raw": 0.18181818181818182
+        },
+        "base60": {
+          "exceedances": 2,
+          "controls": 131,
+          "p_raw": 0.022727272727272728
+        },
+        "nrgf60": {
+          "exceedances": 2,
+          "controls": 131,
+          "p_raw": 0.022727272727272728
+        }
+      },
+      "primary_pair_exceedances": 0,
+      "primary_pair_p_raw": 0.007575757575757576
+    },
+    "measured": {
+      "representations": {
+        "bff": {
+          "exceedances": 7,
+          "controls": 131,
+          "p_raw": 0.06060606060606061
+        },
+        "base60": {
+          "exceedances": 13,
+          "controls": 131,
+          "p_raw": 0.10606060606060606
+        },
+        "nrgf60": {
+          "exceedances": 5,
+          "controls": 131,
+          "p_raw": 0.045454545454545456
+        }
+      },
+      "primary_pair_exceedances": 2,
+      "primary_pair_p_raw": 0.022727272727272728
+    }
+  },
+  "control_pair_count": 131,
+  "maximum_measured_vs_fixed_vertex_shift_rsun": 0.15000000000000036,
+  "measured_pair_order_stable_two_of_three": true,
+  "measured_pair_transport_two_of_three": false,
+  "measured_pair_raw_p_below_0p05": true,
+  "previous_timing_only_primary_pair_p_raw": 0.022727272727272728,
+  "previous_timing_only_transport_pass": false,
+  "verdict": "The measured-width spatial filter preserves an unusual outward-ordered #9 -> #12 pair, but the full transport probability does not cross 0.50 for both events in two representations.  Spatial broadening supports a moving/reforming morphology, not a closed ballistic or shock chain.",
+  "physical_interpretation": "A result stable from the one-pixel filter through spherical and measured broadening is not an artifact of imposing a rigid ridge thickness.  A change confined to the measured filter instead indicates sensitivity to streamer geometry.  In either case, phase-jittered ordered morphology is most naturally described as an expanding or reforming cusp/current-sheet gate until density-jump and Mach-number measurements exist.",
+  "no_BH": true,
+  "calibration": "Level-0-derived COR1 tB/pB morphology plus pB projected-width proxy",
+  "specification": "PDS_20080113_spatially_expanding_ridge_pilot_spec.md",
+  "files": {
+    "map_figure": "pds_20080113_spatially_expanding_ridge_maps.png",
+    "summary_figure": "pds_20080113_spatially_expanding_ridge_summary.png",
+    "report": "PDS_20080113_spatially_expanding_ridge_pilot_no_BH.md"
+  }
+}

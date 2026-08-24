@@ -1,0 +1,21 @@
+case,kind,cor2_candidates,strong_events,height_band,raw_p_common_shift,cor1_ensemble_raw_p,cor2_train,seismology,residual_pds,verdict
+2008-01-11–14,PDS-selected,21,12,EUVI 1.02–1.25,0.1901,0.008403,yes,not established,"yes, aggregate",First coherent aggregate onset at high COR1 (2.5–3.0 R_sun).
+2008-01-11–14,PDS-selected,21,12,EUVI 1.25–1.45,0.1983,0.008403,yes,not established,"yes, aggregate",First coherent aggregate onset at high COR1 (2.5–3.0 R_sun).
+2008-01-11–14,PDS-selected,21,12,COR1 1.55–2.00,0.6471,0.008403,yes,not established,"yes, aggregate",First coherent aggregate onset at high COR1 (2.5–3.0 R_sun).
+2008-01-11–14,PDS-selected,21,12,COR1 2.00–2.50,0.175,0.008403,yes,not established,"yes, aggregate",First coherent aggregate onset at high COR1 (2.5–3.0 R_sun).
+2008-01-11–14,PDS-selected,21,12,COR1 2.50–3.00,0.02479,0.008403,yes,not established,"yes, aggregate",First coherent aggregate onset at high COR1 (2.5–3.0 R_sun).
+2008-01-18–20,fixed independent PDS case,15,9,EUVI 1.02–1.25,0.9421,0.15,yes,not established,COR2 only,No robust EUVI–COR1 continuation or phase-coherent clock.
+2008-01-18–20,fixed independent PDS case,15,9,EUVI 1.25–1.45,0.9256,0.15,yes,not established,COR2 only,No robust EUVI–COR1 continuation or phase-coherent clock.
+2008-01-18–20,fixed independent PDS case,15,9,COR1 1.55–2.00,0.2667,0.15,yes,not established,COR2 only,No robust EUVI–COR1 continuation or phase-coherent clock.
+2008-01-18–20,fixed independent PDS case,15,9,COR1 2.00–2.50,0.124,0.15,yes,not established,COR2 only,No robust EUVI–COR1 continuation or phase-coherent clock.
+2008-01-18–20,fixed independent PDS case,15,9,COR1 2.50–3.00,0.2893,0.15,yes,not established,COR2 only,No robust EUVI–COR1 continuation or phase-coherent clock.
+2008-05-29–31,blind random control,2,2,EUVI 1.02–1.25,0.2493,,no (<4 ridges),not established,no,Negative control; mid-COR1 phase hint is not significant.
+2008-05-29–31,blind random control,2,2,EUVI 1.25–1.45,0.5322,,no (<4 ridges),not established,no,Negative control; mid-COR1 phase hint is not significant.
+2008-05-29–31,blind random control,2,2,COR1 1.55–2.00,0.8319,,no (<4 ridges),not established,no,Negative control; mid-COR1 phase hint is not significant.
+2008-05-29–31,blind random control,2,2,COR1 2.00–2.50,0.0983,,no (<4 ridges),not established,no,Negative control; mid-COR1 phase hint is not significant.
+2008-05-29–31,blind random control,2,2,COR1 2.50–3.00,0.8655,,no (<4 ridges),not established,no,Negative control; mid-COR1 phase hint is not significant.
+2008-07-26–28,blind random control,1,1,EUVI 1.02–1.25,0.6264,,no (1 ridge),not established,no,"Isolated upper-EUVI modulation, but no cross-height PDS chain."
+2008-07-26–28,blind random control,1,1,EUVI 1.25–1.45,0.4246,,no (1 ridge),not established,no,"Isolated upper-EUVI modulation, but no cross-height PDS chain."
+2008-07-26–28,blind random control,1,1,COR1 1.55–2.00,0.072,,no (1 ridge),not established,no,"Isolated upper-EUVI modulation, but no cross-height PDS chain."
+2008-07-26–28,blind random control,1,1,COR1 2.00–2.50,0.0549,,no (1 ridge),not established,no,"Isolated upper-EUVI modulation, but no cross-height PDS chain."
+2008-07-26–28,blind random control,1,1,COR1 2.50–3.00,0.0544,,no (1 ridge),not established,no,"Isolated upper-EUVI modulation, but no cross-height PDS chain."

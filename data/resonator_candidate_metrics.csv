@@ -1,0 +1,5 @@
+test,domain,height_rsun,p_raw,status,interpretation
+EUVI 171 integrated 80--130 min band,EUVI 171,1.10--1.20,0.0279,local candidate,Detected band-limited low-coronal modulation; resonator mechanism remains a candidate
+Fixed EUVI-to-COR1 continuation,COR1,1.55--3.30,0.3460,not closed,No propagation-delayed phase bridge from the source-side band
+Strong-event COR1 aggregate,COR1,1.55--3.00,0.008403,aggregate indication,Coronal organization is present in the independently selected event sample
+Fixed EUVI-to-COR2 continuation,COR2,3.00,1.0000,not closed,No direct continuation of the low-coronal band into the COR2 anchors

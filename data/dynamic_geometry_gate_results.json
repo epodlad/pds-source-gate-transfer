@@ -1,0 +1,2256 @@
+{
+  "test": "geometry-dependent Habbal and dynamic cusp/current-sheet gate",
+  "date_frozen": "2026-08-21",
+  "no_BH": true,
+  "fixed_projection_speeds_km_s": [
+    100.0,
+    200.0,
+    300.0
+  ],
+  "geometry_dependence_detected": false,
+  "dynamic_gate_detected": false,
+  "periodic_gate_detected": false,
+  "mhd_branch_identified": false,
+  "event_table_primary_total_b_200_km_s": [
+    {
+      "event_number": 1,
+      "utc": "2008-01-11T14:37:30Z",
+      "common_ridge_score": 0.27523903314312415,
+      "common_ridge_p_raw": 0.041666666666666664,
+      "best_ridge_p_raw": 0.7430555555555556,
+      "best_model_family": "deceleration",
+      "best_change_radius_rsun": 2.9000000000000012,
+      "best_v_inner_km_s": 300.0,
+      "best_v_outer_km_s": 50.0,
+      "phase_kink_radius_rsun": 2.750000000000001,
+      "phase_kink_p_raw": 0.8819444444444444,
+      "coverage": 0.975,
+      "max_area_gradient": 9.705175445326802,
+      "gradient_peak_radius_rsun": 2.0749999999999975,
+      "area_expansion_ratio": 4.553359255225705,
+      "max_axis_shear": 16.447266149154835,
+      "axis_shear_peak_radius_rsun": 1.9249999999999983
+    },
+    {
+      "event_number": 2,
+      "utc": "2008-01-12T05:07:30Z",
+      "common_ridge_score": 0.11400968152913228,
+      "common_ridge_p_raw": 0.3125,
+      "best_ridge_p_raw": 0.8541666666666666,
+      "best_model_family": "deceleration",
+      "best_change_radius_rsun": 2.4000000000000004,
+      "best_v_inner_km_s": 300.0,
+      "best_v_outer_km_s": 20.0,
+      "phase_kink_radius_rsun": 1.9000000000000001,
+      "phase_kink_p_raw": 0.8263888888888888,
+      "coverage": 0.875,
+      "max_area_gradient": 3.3269915403408987,
+      "gradient_peak_radius_rsun": 2.4499999999999966,
+      "area_expansion_ratio": 1.7458925982461997,
+      "max_axis_shear": 18.655277026720025,
+      "axis_shear_peak_radius_rsun": 2.5749999999999957
+    },
+    {
+      "event_number": 3,
+      "utc": "2008-01-12T11:37:30Z",
+      "common_ridge_score": 0.20603063885239295,
+      "common_ridge_p_raw": 0.125,
+      "best_ridge_p_raw": 0.4305555555555556,
+      "best_model_family": "deceleration",
+      "best_change_radius_rsun": 2.6000000000000005,
+      "best_v_inner_km_s": 250.0,
+      "best_v_outer_km_s": 20.0,
+      "phase_kink_radius_rsun": 2.1000000000000005,
+      "phase_kink_p_raw": 0.2013888888888889,
+      "coverage": 0.925,
+      "max_area_gradient": 8.834200790728204,
+      "gradient_peak_radius_rsun": 1.9249999999999983,
+      "area_expansion_ratio": 1.2217608762659578,
+      "max_axis_shear": 19.10065955906757,
+      "axis_shear_peak_radius_rsun": 2.1249999999999973
+    },
+    {
+      "event_number": 4,
+      "utc": "2008-01-12T22:07:30Z",
+      "common_ridge_score": 0.04068783483193133,
+      "common_ridge_p_raw": 0.4791666666666667,
+      "best_ridge_p_raw": 0.11805555555555555,
+      "best_model_family": "deceleration",
+      "best_change_radius_rsun": 2.3000000000000007,
+      "best_v_inner_km_s": 200.0,
+      "best_v_outer_km_s": 25.0,
+      "phase_kink_radius_rsun": 1.9000000000000001,
+      "phase_kink_p_raw": 0.7222222222222222,
+      "coverage": 0.9,
+      "max_area_gradient": NaN,
+      "gradient_peak_radius_rsun": NaN,
+      "area_expansion_ratio": NaN,
+      "max_axis_shear": NaN,
+      "axis_shear_peak_radius_rsun": NaN
+    },
+    {
+      "event_number": 5,
+      "utc": "2008-01-13T01:07:30Z",
+      "common_ridge_score": 0.2365716079490212,
+      "common_ridge_p_raw": 0.06944444444444445,
+      "best_ridge_p_raw": 0.4375,
+      "best_model_family": "deceleration",
+      "best_change_radius_rsun": 2.1000000000000005,
+      "best_v_inner_km_s": 300.0,
+      "best_v_outer_km_s": 20.0,
+      "phase_kink_radius_rsun": 1.8,
+      "phase_kink_p_raw": 0.2638888888888889,
+      "coverage": 0.775,
+      "max_area_gradient": 5.143095769204436,
+      "gradient_peak_radius_rsun": 2.7499999999999956,
+      "area_expansion_ratio": 1.7136594778365397,
+      "max_axis_shear": 11.915163703239564,
+      "axis_shear_peak_radius_rsun": 2.899999999999995
+    },
+    {
+      "event_number": 6,
+      "utc": "2008-01-13T05:37:30Z",
+      "common_ridge_score": -0.06966418123850314,
+      "common_ridge_p_raw": 0.6875,
+      "best_ridge_p_raw": 0.9375,
+      "best_model_family": "constant",
+      "best_change_radius_rsun": null,
+      "best_v_inner_km_s": 300.0,
+      "best_v_outer_km_s": 300.0,
+      "phase_kink_radius_rsun": 1.85,
+      "phase_kink_p_raw": 0.7083333333333334,
+      "coverage": 0.825,
+      "max_area_gradient": NaN,
+      "gradient_peak_radius_rsun": NaN,
+      "area_expansion_ratio": NaN,
+      "max_axis_shear": NaN,
+      "axis_shear_peak_radius_rsun": NaN
+    },
+    {
+      "event_number": 7,
+      "utc": "2008-01-13T10:07:30Z",
+      "common_ridge_score": 0.08470831126045443,
+      "common_ridge_p_raw": 0.375,
+      "best_ridge_p_raw": 0.7222222222222222,
+      "best_model_family": "acceleration",
+      "best_change_radius_rsun": 2.3000000000000007,
+      "best_v_inner_km_s": 30.0,
+      "best_v_outer_km_s": 250.0,
+      "phase_kink_radius_rsun": 2.2500000000000004,
+      "phase_kink_p_raw": 0.2638888888888889,
+      "coverage": 0.75,
+      "max_area_gradient": 4.690377982894248,
+      "gradient_peak_radius_rsun": 2.3249999999999966,
+      "area_expansion_ratio": 0.5831479605270448,
+      "max_axis_shear": 19.101802531764193,
+      "axis_shear_peak_radius_rsun": 2.224999999999997
+    },
+    {
+      "event_number": 8,
+      "utc": "2008-01-13T14:37:30Z",
+      "common_ridge_score": -0.10162753434663906,
+      "common_ridge_p_raw": 0.7291666666666666,
+      "best_ridge_p_raw": 0.6458333333333334,
+      "best_model_family": "deceleration",
+      "best_change_radius_rsun": 2.1000000000000005,
+      "best_v_inner_km_s": 100.0,
+      "best_v_outer_km_s": 40.0,
+      "phase_kink_radius_rsun": 2.850000000000001,
+      "phase_kink_p_raw": 0.8680555555555556,
+      "coverage": 0.95,
+      "max_area_gradient": 5.725529117818127,
+      "gradient_peak_radius_rsun": 2.0749999999999975,
+      "area_expansion_ratio": 3.4976081665254153,
+      "max_axis_shear": 26.356559051682687,
+      "axis_shear_peak_radius_rsun": 2.099999999999998
+    },
+    {
+      "event_number": 9,
+      "utc": "2008-01-13T15:37:30Z",
+      "common_ridge_score": 0.1350568485562276,
+      "common_ridge_p_raw": 0.2569444444444444,
+      "best_ridge_p_raw": 0.4861111111111111,
+      "best_model_family": "deceleration",
+      "best_change_radius_rsun": 2.2,
+      "best_v_inner_km_s": 100.0,
+      "best_v_outer_km_s": 30.0,
+      "phase_kink_radius_rsun": 2.850000000000001,
+      "phase_kink_p_raw": 0.8194444444444444,
+      "coverage": 0.925,
+      "max_area_gradient": NaN,
+      "gradient_peak_radius_rsun": NaN,
+      "area_expansion_ratio": NaN,
+      "max_axis_shear": NaN,
+      "axis_shear_peak_radius_rsun": NaN
+    },
+    {
+      "event_number": 10,
+      "utc": "2008-01-13T17:07:30Z",
+      "common_ridge_score": 0.14668170803567937,
+      "common_ridge_p_raw": 0.2361111111111111,
+      "best_ridge_p_raw": 0.5416666666666666,
+      "best_model_family": "deceleration",
+      "best_change_radius_rsun": 2.3000000000000007,
+      "best_v_inner_km_s": 150.0,
+      "best_v_outer_km_s": 20.0,
+      "phase_kink_radius_rsun": 2.850000000000001,
+      "phase_kink_p_raw": 0.8194444444444444,
+      "coverage": 0.9,
+      "max_area_gradient": NaN,
+      "gradient_peak_radius_rsun": NaN,
+      "area_expansion_ratio": NaN,
+      "max_axis_shear": NaN,
+      "axis_shear_peak_radius_rsun": NaN
+    },
+    {
+      "event_number": 11,
+      "utc": "2008-01-13T19:37:30Z",
+      "common_ridge_score": 0.03857584243861592,
+      "common_ridge_p_raw": 0.4791666666666667,
+      "best_ridge_p_raw": 0.0625,
+      "best_model_family": "acceleration",
+      "best_change_radius_rsun": 1.9000000000000001,
+      "best_v_inner_km_s": 80.0,
+      "best_v_outer_km_s": 300.0,
+      "phase_kink_radius_rsun": 2.850000000000001,
+      "phase_kink_p_raw": 0.7708333333333334,
+      "coverage": 0.9,
+      "max_area_gradient": NaN,
+      "gradient_peak_radius_rsun": NaN,
+      "area_expansion_ratio": NaN,
+      "max_axis_shear": NaN,
+      "axis_shear_peak_radius_rsun": NaN
+    },
+    {
+      "event_number": 12,
+      "utc": "2008-01-13T21:37:30Z",
+      "common_ridge_score": -0.15235204483861056,
+      "common_ridge_p_raw": 0.8333333333333334,
+      "best_ridge_p_raw": 0.034722222222222224,
+      "best_model_family": "deceleration",
+      "best_change_radius_rsun": 2.9000000000000012,
+      "best_v_inner_km_s": 100.0,
+      "best_v_outer_km_s": 25.0,
+      "phase_kink_radius_rsun": 2.750000000000001,
+      "phase_kink_p_raw": 0.2222222222222222,
+      "coverage": 0.9,
+      "max_area_gradient": NaN,
+      "gradient_peak_radius_rsun": NaN,
+      "area_expansion_ratio": NaN,
+      "max_axis_shear": NaN,
+      "axis_shear_peak_radius_rsun": NaN
+    }
+  ],
+  "exploratory_single_event_candidate": {
+    "status": "single-event candidate; post-primary exploratory reading",
+    "utc": "2008-01-13T21:37:30Z",
+    "identified_ridge_p_raw": 0.034722222222222224,
+    "best_kinematic_model": {
+      "family": "deceleration",
+      "v_inner_km_s": 100.0,
+      "v_outer_km_s": 25.0,
+      "change_radius_rsun": 2.9000000000000012
+    },
+    "pb_area_gradient_peak_radius_rsun": 2.6999999999999957,
+    "pb_axis_shear_peak_radius_rsun": 2.7499999999999956,
+    "phase_kink_radius_rsun": 2.750000000000001,
+    "phase_kink_p_raw": 0.2222222222222222,
+    "interpretation": "The identified ridge and the pB geometry/axis coincidence near 2.70--2.75 R_sun are consistent with a moving or reforming geometry-controlled gate. The phase kink is not independently significant, total-B geometry is unavailable at this time, and the existing pB compression test fails; this is not a confirmed shock."
+  },
+  "geometry_tests": {
+    "total_b": {
+      "100": {
+        "metrics": {
+          "max_area_gradient": {
+            "rho": 0.03571428571428572,
+            "p_raw": 0.9052418951620967,
+            "pairs": 7
+          },
+          "area_expansion_ratio": {
+            "rho": 0.14285714285714288,
+            "p_raw": 0.7133057338853223,
+            "pairs": 7
+          },
+          "max_axis_shear": {
+            "rho": -0.42857142857142866,
+            "p_raw": 0.3008939821203576,
+            "pairs": 7
+          }
+        },
+        "omnibus": {
+          "max_abs_rho": 0.42857142857142866,
+          "p_raw_max_metric": 0.6601467970640588
+        }
+      },
+      "200": {
+        "metrics": {
+          "max_area_gradient": {
+            "rho": NaN,
+            "p_raw": NaN,
+            "pairs": 6
+          },
+          "area_expansion_ratio": {
+            "rho": NaN,
+            "p_raw": NaN,
+            "pairs": 6
+          },
+          "max_axis_shear": {
+            "rho": NaN,
+            "p_raw": NaN,
+            "pairs": 6
+          }
+        },
+        "omnibus": {
+          "max_abs_rho": NaN,
+          "p_raw_max_metric": NaN
+        }
+      },
+      "300": {
+        "metrics": {
+          "max_area_gradient": {
+            "rho": NaN,
+            "p_raw": NaN,
+            "pairs": 3
+          },
+          "area_expansion_ratio": {
+            "rho": NaN,
+            "p_raw": NaN,
+            "pairs": 3
+          },
+          "max_axis_shear": {
+            "rho": NaN,
+            "p_raw": NaN,
+            "pairs": 3
+          }
+        },
+        "omnibus": {
+          "max_abs_rho": NaN,
+          "p_raw_max_metric": NaN
+        }
+      }
+    },
+    "pb": {
+      "100": {
+        "metrics": {
+          "max_area_gradient": {
+            "rho": -0.1258741258741259,
+            "p_raw": 0.6947461050778985,
+            "pairs": 12
+          },
+          "area_expansion_ratio": {
+            "rho": 0.32867132867132864,
+            "p_raw": 0.2973740525189496,
+            "pairs": 12
+          },
+          "max_axis_shear": {
+            "rho": 0.07692307692307693,
+            "p_raw": 0.8114237715245695,
+            "pairs": 12
+          }
+        },
+        "omnibus": {
+          "max_abs_rho": 0.32867132867132864,
+          "p_raw_max_metric": 0.6498470030599388
+        }
+      },
+      "200": {
+        "metrics": {
+          "max_area_gradient": {
+            "rho": -0.5104895104895105,
+            "p_raw": 0.09453810923781525,
+            "pairs": 12
+          },
+          "area_expansion_ratio": {
+            "rho": 0.21678321678321683,
+            "p_raw": 0.49313013739725203,
+            "pairs": 12
+          },
+          "max_axis_shear": {
+            "rho": -0.4125874125874127,
+            "p_raw": 0.18151636967260654,
+            "pairs": 12
+          }
+        },
+        "omnibus": {
+          "max_abs_rho": 0.5104895104895105,
+          "p_raw_max_metric": 0.254654906901862
+        }
+      },
+      "300": {
+        "metrics": {
+          "max_area_gradient": {
+            "rho": -0.7902097902097903,
+            "p_raw": 0.0036799264014719707,
+            "pairs": 12
+          },
+          "area_expansion_ratio": {
+            "rho": 0.20979020979020982,
+            "p_raw": 0.5128297434051319,
+            "pairs": 12
+          },
+          "max_axis_shear": {
+            "rho": -0.30069930069930073,
+            "p_raw": 0.34521309573808523,
+            "pairs": 12
+          }
+        },
+        "omnibus": {
+          "max_abs_rho": 0.7902097902097903,
+          "p_raw_max_metric": 0.010559788804223915
+        }
+      }
+    }
+  },
+  "event_geometry_rows": {
+    "total_b": {
+      "100": [
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 9.705175445326802,
+          "gradient_peak_radius_rsun": 2.0749999999999975,
+          "area_expansion_ratio": 1.8461364827761695,
+          "max_axis_shear": 16.639709458681157,
+          "axis_shear_peak_radius_rsun": 2.5499999999999963
+        },
+        {
+          "coverage": 0.975,
+          "max_area_gradient": 3.088499483142641,
+          "gradient_peak_radius_rsun": 2.8749999999999947,
+          "area_expansion_ratio": 4.569662838155996,
+          "max_axis_shear": 13.6999483494485,
+          "axis_shear_peak_radius_rsun": 2.7999999999999954
+        },
+        {
+          "coverage": 0.85,
+          "max_area_gradient": 1.8043706255239016,
+          "gradient_peak_radius_rsun": 2.5749999999999957,
+          "area_expansion_ratio": 0.5266474905670364,
+          "max_axis_shear": 20.419360003086133,
+          "axis_shear_peak_radius_rsun": 1.974999999999998
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.775,
+          "max_area_gradient": 5.143095769204436,
+          "gradient_peak_radius_rsun": 2.7499999999999956,
+          "area_expansion_ratio": 1.1624696395260443,
+          "max_axis_shear": 11.915163703239564,
+          "axis_shear_peak_radius_rsun": 2.899999999999995
+        },
+        {
+          "coverage": 0.825,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.825,
+          "max_area_gradient": 9.458669462504886,
+          "gradient_peak_radius_rsun": 2.049999999999998,
+          "area_expansion_ratio": 0.45414992495532014,
+          "max_axis_shear": 23.126363455096183,
+          "axis_shear_peak_radius_rsun": 1.9499999999999982
+        },
+        {
+          "coverage": 0.975,
+          "max_area_gradient": 8.617923697654632,
+          "gradient_peak_radius_rsun": 2.3749999999999964,
+          "area_expansion_ratio": 1.2657776342305302,
+          "max_axis_shear": 18.070289245649704,
+          "axis_shear_peak_radius_rsun": 2.1499999999999977
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 4.000226963142168,
+          "gradient_peak_radius_rsun": 2.049999999999998,
+          "area_expansion_ratio": 1.1256866238648966,
+          "max_axis_shear": 20.49126340333555,
+          "axis_shear_peak_radius_rsun": 1.9249999999999983
+        },
+        {
+          "coverage": 0.875,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.875,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        }
+      ],
+      "200": [
+        {
+          "coverage": 0.975,
+          "max_area_gradient": 9.705175445326802,
+          "gradient_peak_radius_rsun": 2.0749999999999975,
+          "area_expansion_ratio": 4.553359255225705,
+          "max_axis_shear": 16.447266149154835,
+          "axis_shear_peak_radius_rsun": 1.9249999999999983
+        },
+        {
+          "coverage": 0.875,
+          "max_area_gradient": 3.3269915403408987,
+          "gradient_peak_radius_rsun": 2.4499999999999966,
+          "area_expansion_ratio": 1.7458925982461997,
+          "max_axis_shear": 18.655277026720025,
+          "axis_shear_peak_radius_rsun": 2.5749999999999957
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": 8.834200790728204,
+          "gradient_peak_radius_rsun": 1.9249999999999983,
+          "area_expansion_ratio": 1.2217608762659578,
+          "max_axis_shear": 19.10065955906757,
+          "axis_shear_peak_radius_rsun": 2.1249999999999973
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.775,
+          "max_area_gradient": 5.143095769204436,
+          "gradient_peak_radius_rsun": 2.7499999999999956,
+          "area_expansion_ratio": 1.7136594778365397,
+          "max_axis_shear": 11.915163703239564,
+          "axis_shear_peak_radius_rsun": 2.899999999999995
+        },
+        {
+          "coverage": 0.825,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.75,
+          "max_area_gradient": 4.690377982894248,
+          "gradient_peak_radius_rsun": 2.3249999999999966,
+          "area_expansion_ratio": 0.5831479605270448,
+          "max_axis_shear": 19.101802531764193,
+          "axis_shear_peak_radius_rsun": 2.224999999999997
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 5.725529117818127,
+          "gradient_peak_radius_rsun": 2.0749999999999975,
+          "area_expansion_ratio": 3.4976081665254153,
+          "max_axis_shear": 26.356559051682687,
+          "axis_shear_peak_radius_rsun": 2.099999999999998
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        }
+      ],
+      "300": [
+        {
+          "coverage": 0.95,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 3.3269915403408987,
+          "gradient_peak_radius_rsun": 2.4499999999999966,
+          "area_expansion_ratio": 1.9277897207001575,
+          "max_axis_shear": 18.655277026720025,
+          "axis_shear_peak_radius_rsun": 2.5749999999999957
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.85,
+          "max_area_gradient": 5.143095769204436,
+          "gradient_peak_radius_rsun": 2.7499999999999956,
+          "area_expansion_ratio": 1.9186099714573501,
+          "max_axis_shear": 21.02449681390618,
+          "axis_shear_peak_radius_rsun": 1.9499999999999982
+        },
+        {
+          "coverage": 0.8,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.8,
+          "max_area_gradient": 4.690377982894248,
+          "gradient_peak_radius_rsun": 2.3249999999999966,
+          "area_expansion_ratio": 0.31173929605596207,
+          "max_axis_shear": 19.101802531764193,
+          "axis_shear_peak_radius_rsun": 2.224999999999997
+        },
+        {
+          "coverage": 0.975,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.825,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": NaN,
+          "gradient_peak_radius_rsun": NaN,
+          "area_expansion_ratio": NaN,
+          "max_axis_shear": NaN,
+          "axis_shear_peak_radius_rsun": NaN
+        }
+      ]
+    },
+    "pb": {
+      "100": [
+        {
+          "coverage": 0.975,
+          "max_area_gradient": 3.0062446679019814,
+          "gradient_peak_radius_rsun": 2.6999999999999957,
+          "area_expansion_ratio": 2.152640425420483,
+          "max_axis_shear": 7.071547924679093,
+          "axis_shear_peak_radius_rsun": 2.3749999999999964
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": 2.7580411046016446,
+          "gradient_peak_radius_rsun": 2.4249999999999963,
+          "area_expansion_ratio": 1.140855018815404,
+          "max_axis_shear": 17.191117321007336,
+          "axis_shear_peak_radius_rsun": 1.999999999999998
+        },
+        {
+          "coverage": 0.975,
+          "max_area_gradient": 3.415056661000662,
+          "gradient_peak_radius_rsun": 2.3249999999999966,
+          "area_expansion_ratio": 1.0103821671691586,
+          "max_axis_shear": 16.742829851675328,
+          "axis_shear_peak_radius_rsun": 2.0749999999999975
+        },
+        {
+          "coverage": 0.975,
+          "max_area_gradient": 3.673373799235918,
+          "gradient_peak_radius_rsun": 1.9249999999999983,
+          "area_expansion_ratio": 1.5694605507638661,
+          "max_axis_shear": 10.889183821751544,
+          "axis_shear_peak_radius_rsun": 2.1499999999999977
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": 9.02030554990398,
+          "gradient_peak_radius_rsun": 2.0249999999999977,
+          "area_expansion_ratio": 1.531703015390311,
+          "max_axis_shear": 20.271876978927445,
+          "axis_shear_peak_radius_rsun": 2.0249999999999977
+        },
+        {
+          "coverage": 0.975,
+          "max_area_gradient": 2.5991682148944335,
+          "gradient_peak_radius_rsun": 2.474999999999996,
+          "area_expansion_ratio": 1.2028446654872182,
+          "max_axis_shear": 13.09711933477715,
+          "axis_shear_peak_radius_rsun": 2.3749999999999964
+        },
+        {
+          "coverage": 0.875,
+          "max_area_gradient": 15.286982734448301,
+          "gradient_peak_radius_rsun": 2.4999999999999964,
+          "area_expansion_ratio": 0.48643395040975523,
+          "max_axis_shear": 21.18413183528713,
+          "axis_shear_peak_radius_rsun": 2.4999999999999964
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": 3.5491476799155635,
+          "gradient_peak_radius_rsun": 2.3249999999999966,
+          "area_expansion_ratio": 1.0929004123556842,
+          "max_axis_shear": 9.628020350341576,
+          "axis_shear_peak_radius_rsun": 2.599999999999996
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": 2.8369843465983564,
+          "gradient_peak_radius_rsun": 2.4499999999999966,
+          "area_expansion_ratio": 0.9930881032620218,
+          "max_axis_shear": 14.408881856095821,
+          "axis_shear_peak_radius_rsun": 2.3249999999999966
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 3.4530418854481013,
+          "gradient_peak_radius_rsun": 2.5499999999999963,
+          "area_expansion_ratio": 1.383203263200212,
+          "max_axis_shear": 8.278392586426426,
+          "axis_shear_peak_radius_rsun": 2.4249999999999963
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 5.466108654063238,
+          "gradient_peak_radius_rsun": 2.3249999999999966,
+          "area_expansion_ratio": 1.7296868857931003,
+          "max_axis_shear": 11.288090309031617,
+          "axis_shear_peak_radius_rsun": 2.0249999999999977
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": 5.053395504192544,
+          "gradient_peak_radius_rsun": 2.724999999999995,
+          "area_expansion_ratio": 0.5475987394246046,
+          "max_axis_shear": 13.720934863636822,
+          "axis_shear_peak_radius_rsun": 2.7499999999999956
+        }
+      ],
+      "200": [
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 2.5055022979654638,
+          "gradient_peak_radius_rsun": 2.0749999999999975,
+          "area_expansion_ratio": 1.1853829007813221,
+          "max_axis_shear": 11.250312451213022,
+          "axis_shear_peak_radius_rsun": 2.1249999999999973
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": 4.10733314099706,
+          "gradient_peak_radius_rsun": 1.9249999999999983,
+          "area_expansion_ratio": 1.8081964210851182,
+          "max_axis_shear": 14.470835004529391,
+          "axis_shear_peak_radius_rsun": 2.1249999999999973
+        },
+        {
+          "coverage": 0.975,
+          "max_area_gradient": 3.632132364677645,
+          "gradient_peak_radius_rsun": 2.3749999999999964,
+          "area_expansion_ratio": 1.6932804036197022,
+          "max_axis_shear": 10.14741571572153,
+          "axis_shear_peak_radius_rsun": 2.6749999999999954
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 3.2335213867452524,
+          "gradient_peak_radius_rsun": 2.174999999999997,
+          "area_expansion_ratio": 1.6824023040056875,
+          "max_axis_shear": 14.436610316160692,
+          "axis_shear_peak_radius_rsun": 2.349999999999997
+        },
+        {
+          "coverage": 0.975,
+          "max_area_gradient": 2.418827254193559,
+          "gradient_peak_radius_rsun": 2.3249999999999966,
+          "area_expansion_ratio": 1.1090997867911676,
+          "max_axis_shear": 16.16289769328714,
+          "axis_shear_peak_radius_rsun": 2.7999999999999954
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 3.6278004567058844,
+          "gradient_peak_radius_rsun": 2.049999999999998,
+          "area_expansion_ratio": 0.01992489092701027,
+          "max_axis_shear": 20.269866188410152,
+          "axis_shear_peak_radius_rsun": 2.0249999999999977
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 15.286982734448301,
+          "gradient_peak_radius_rsun": 2.4999999999999964,
+          "area_expansion_ratio": 0.254918145117539,
+          "max_axis_shear": 21.18413183528713,
+          "axis_shear_peak_radius_rsun": 2.4999999999999964
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": 3.540861249441477,
+          "gradient_peak_radius_rsun": 1.9249999999999983,
+          "area_expansion_ratio": 1.502416911469852,
+          "max_axis_shear": 12.626583971473003,
+          "axis_shear_peak_radius_rsun": 2.599999999999996
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": 2.3529499841504986,
+          "gradient_peak_radius_rsun": 2.1249999999999973,
+          "area_expansion_ratio": 0.849323993072515,
+          "max_axis_shear": 11.342530759363505,
+          "axis_shear_peak_radius_rsun": 2.049999999999998
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 2.415307126702487,
+          "gradient_peak_radius_rsun": 1.9249999999999983,
+          "area_expansion_ratio": 3.1590496804943857,
+          "max_axis_shear": 9.899515750321028,
+          "axis_shear_peak_radius_rsun": 2.5499999999999963
+        },
+        {
+          "coverage": 0.975,
+          "max_area_gradient": 3.6594275509702783,
+          "gradient_peak_radius_rsun": 2.599999999999996,
+          "area_expansion_ratio": 0.7512628584147646,
+          "max_axis_shear": 18.17214321268671,
+          "axis_shear_peak_radius_rsun": 2.174999999999997
+        },
+        {
+          "coverage": 0.875,
+          "max_area_gradient": 5.407726788082513,
+          "gradient_peak_radius_rsun": 2.6999999999999957,
+          "area_expansion_ratio": 1.6260992136054215,
+          "max_axis_shear": 13.720934863636822,
+          "axis_shear_peak_radius_rsun": 2.7499999999999956
+        }
+      ],
+      "300": [
+        {
+          "coverage": 0.875,
+          "max_area_gradient": 2.5055022979654638,
+          "gradient_peak_radius_rsun": 2.0749999999999975,
+          "area_expansion_ratio": 0.889788676576527,
+          "max_axis_shear": 11.250312451213022,
+          "axis_shear_peak_radius_rsun": 2.1249999999999973
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": 2.620104694356474,
+          "gradient_peak_radius_rsun": 2.399999999999997,
+          "area_expansion_ratio": 1.62456681732515,
+          "max_axis_shear": 8.12626121184827,
+          "axis_shear_peak_radius_rsun": 2.7499999999999956
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 3.632132364677645,
+          "gradient_peak_radius_rsun": 2.3749999999999964,
+          "area_expansion_ratio": 2.6684290835298823,
+          "max_axis_shear": 9.282411462658619,
+          "axis_shear_peak_radius_rsun": 2.0249999999999977
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 3.2336892118107956,
+          "gradient_peak_radius_rsun": 2.174999999999997,
+          "area_expansion_ratio": 1.711468348573089,
+          "max_axis_shear": 15.508553172273867,
+          "axis_shear_peak_radius_rsun": 1.9249999999999983
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 2.418827254193559,
+          "gradient_peak_radius_rsun": 2.3249999999999966,
+          "area_expansion_ratio": 1.1090997867911685,
+          "max_axis_shear": 16.16289769328714,
+          "axis_shear_peak_radius_rsun": 2.7999999999999954
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": 3.830885097673928,
+          "gradient_peak_radius_rsun": 2.174999999999997,
+          "area_expansion_ratio": 0.9506648779483823,
+          "max_axis_shear": 20.269866188410152,
+          "axis_shear_peak_radius_rsun": 2.0249999999999977
+        },
+        {
+          "coverage": 0.875,
+          "max_area_gradient": 15.286982734448301,
+          "gradient_peak_radius_rsun": 2.4999999999999964,
+          "area_expansion_ratio": 0.25491814511753813,
+          "max_axis_shear": 21.18413183528713,
+          "axis_shear_peak_radius_rsun": 2.4999999999999964
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": 4.901431223271418,
+          "gradient_peak_radius_rsun": 2.524999999999996,
+          "area_expansion_ratio": 1.195078827187247,
+          "max_axis_shear": 13.36233976434326,
+          "axis_shear_peak_radius_rsun": 2.599999999999996
+        },
+        {
+          "coverage": 0.95,
+          "max_area_gradient": 2.893149706031709,
+          "gradient_peak_radius_rsun": 2.174999999999997,
+          "area_expansion_ratio": 1.1199781124941548,
+          "max_axis_shear": 8.27394401749389,
+          "axis_shear_peak_radius_rsun": 2.049999999999998
+        },
+        {
+          "coverage": 0.9,
+          "max_area_gradient": 2.7968707956924375,
+          "gradient_peak_radius_rsun": 1.9249999999999983,
+          "area_expansion_ratio": 2.101989429338538,
+          "max_axis_shear": 13.374889795715287,
+          "axis_shear_peak_radius_rsun": 2.299999999999997
+        },
+        {
+          "coverage": 0.975,
+          "max_area_gradient": 3.6594275509702783,
+          "gradient_peak_radius_rsun": 2.599999999999996,
+          "area_expansion_ratio": 0.6192701435451321,
+          "max_axis_shear": 14.375127816783394,
+          "axis_shear_peak_radius_rsun": 2.099999999999998
+        },
+        {
+          "coverage": 0.925,
+          "max_area_gradient": 5.407726788082513,
+          "gradient_peak_radius_rsun": 2.6999999999999957,
+          "area_expansion_ratio": 1.1015253467159738,
+          "max_axis_shear": 13.720934863636822,
+          "axis_shear_peak_radius_rsun": 2.7499999999999956
+        }
+      ]
+    }
+  },
+  "geometry_decision_components": {
+    "primary_total_b": {
+      "rho": NaN,
+      "p_raw": NaN,
+      "pairs": 6
+    },
+    "sensitivity_total_b": [
+      {
+        "rho": 0.03571428571428572,
+        "p_raw": 0.9052418951620967,
+        "pairs": 7
+      },
+      {
+        "rho": NaN,
+        "p_raw": NaN,
+        "pairs": 3
+      }
+    ],
+    "primary_pb": {
+      "rho": -0.5104895104895105,
+      "p_raw": 0.09453810923781525,
+      "pairs": 12
+    },
+    "same_sensitivity_sign": false,
+    "sensitivity_p_lt_0p10": false,
+    "no_pb_sign_reversal": false
+  },
+  "dynamic_gate_tests": {
+    "total_b": {
+      "100": {
+        "features": {
+          "log_area": {
+            "valid": true,
+            "speed_km_s": 100.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 1.999999999999998,
+            "peak_absolute_change": 68.15876751383782,
+            "scan_p_raw": 0.012048192771084338,
+            "signed_median_change_at_peak": -68.15876751383782,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 1.3017819655607696,
+                "p_raw": 0.2289156626506024,
+                "signed_median_change": -0.2848862642645307
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.5955196640320893,
+                "p_raw": 0.5783132530120482,
+                "signed_median_change": 0.38474197149130784
+              }
+            }
+          },
+          "centroid": {
+            "valid": true,
+            "speed_km_s": 100.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.224999999999997,
+            "peak_absolute_change": 1.8664281583078572,
+            "scan_p_raw": 0.3614457831325301,
+            "signed_median_change_at_peak": -1.8664281583078572,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.6594115493167991,
+                "p_raw": 0.6385542168674698,
+                "signed_median_change": -0.3993190958906381
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.5257169345377416,
+                "p_raw": 0.6144578313253012,
+                "signed_median_change": 0.14410567106458652
+              }
+            }
+          },
+          "log_excess": {
+            "valid": true,
+            "speed_km_s": 100.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.474999999999996,
+            "peak_absolute_change": 2.2199921080022955,
+            "scan_p_raw": 0.18072289156626506,
+            "signed_median_change_at_peak": 0.24000017250219935,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.19433148358413943,
+                "p_raw": 0.9759036144578314,
+                "signed_median_change": 0.18558904725075742
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.3747819784184586,
+                "p_raw": 0.8674698795180723,
+                "signed_median_change": -0.14035487614580752
+              }
+            }
+          }
+        },
+        "passing_features": [
+          "log_area"
+        ],
+        "two_feature_radius_agreement": false,
+        "strong_dynamic_gate_support": false
+      },
+      "200": {
+        "features": {
+          "log_area": {
+            "valid": true,
+            "speed_km_s": 200.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.1499999999999977,
+            "peak_absolute_change": 6.503250253887883,
+            "scan_p_raw": 0.21686746987951808,
+            "signed_median_change_at_peak": -2.5668223096099374,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.9940489683833972,
+                "p_raw": 0.4819277108433735,
+                "signed_median_change": 0.6712110985135817
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.6232797232415922,
+                "p_raw": 0.5542168674698795,
+                "signed_median_change": 0.40128288314290717
+              }
+            }
+          },
+          "centroid": {
+            "valid": true,
+            "speed_km_s": 200.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.049999999999998,
+            "peak_absolute_change": 2.075323314949561,
+            "scan_p_raw": 0.20481927710843373,
+            "signed_median_change_at_peak": -2.075323314949561,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.9934741125190855,
+                "p_raw": 0.42168674698795183,
+                "signed_median_change": -0.9934741125190855
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.5011373772670151,
+                "p_raw": 0.7469879518072289,
+                "signed_median_change": 0.4815511474269923
+              }
+            }
+          },
+          "log_excess": {
+            "valid": true,
+            "speed_km_s": 200.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.6249999999999956,
+            "peak_absolute_change": 1.7999346121692918,
+            "scan_p_raw": 0.5662650602409639,
+            "signed_median_change_at_peak": -0.07753626000976512,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.4775632367480423,
+                "p_raw": 0.6987951807228916,
+                "signed_median_change": -0.4775632367480423
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.49287289226812037,
+                "p_raw": 0.5662650602409639,
+                "signed_median_change": 0.3211071859887872
+              }
+            }
+          }
+        },
+        "passing_features": [],
+        "two_feature_radius_agreement": false,
+        "strong_dynamic_gate_support": false
+      },
+      "300": {
+        "features": {
+          "log_area": {
+            "valid": true,
+            "speed_km_s": 300.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.1499999999999977,
+            "peak_absolute_change": 7.587768226789756,
+            "scan_p_raw": 0.12048192771084337,
+            "signed_median_change_at_peak": -2.5571829609789365,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.5568443197435149,
+                "p_raw": 0.8674698795180723,
+                "signed_median_change": 0.14807607608643453
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.7891508547345775,
+                "p_raw": 0.37349397590361444,
+                "signed_median_change": 0.5905558587173527
+              }
+            }
+          },
+          "centroid": {
+            "valid": true,
+            "speed_km_s": 300.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 1.999999999999998,
+            "peak_absolute_change": 2.071381010421771,
+            "scan_p_raw": 0.12048192771084337,
+            "signed_median_change_at_peak": 2.071381010421771,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.31957429423950345,
+                "p_raw": 0.8674698795180723,
+                "signed_median_change": -0.31957429423950345
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.5919142695179398,
+                "p_raw": 0.5783132530120482,
+                "signed_median_change": 0.5265138258677189
+              }
+            }
+          },
+          "log_excess": {
+            "valid": true,
+            "speed_km_s": 300.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.6249999999999956,
+            "peak_absolute_change": 2.190746863534022,
+            "scan_p_raw": 0.2891566265060241,
+            "signed_median_change_at_peak": -0.023009464033827753,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.8450824934457676,
+                "p_raw": 0.3373493975903614,
+                "signed_median_change": -0.8450824934457676
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.6449935711097348,
+                "p_raw": 0.4819277108433735,
+                "signed_median_change": 0.14837164234585343
+              }
+            }
+          }
+        },
+        "passing_features": [],
+        "two_feature_radius_agreement": false,
+        "strong_dynamic_gate_support": false
+      }
+    },
+    "pb": {
+      "100": {
+        "features": {
+          "log_area": {
+            "valid": true,
+            "speed_km_s": 100.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.399999999999997,
+            "peak_absolute_change": 1.5358598043941492,
+            "scan_p_raw": 0.7349397590361446,
+            "signed_median_change_at_peak": -0.2645850979510791,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.6541504491693031,
+                "p_raw": 0.37349397590361444,
+                "signed_median_change": 0.192801998740668
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.8704424274333473,
+                "p_raw": 0.26506024096385544,
+                "signed_median_change": -0.6447443664895034
+              }
+            }
+          },
+          "centroid": {
+            "valid": true,
+            "speed_km_s": 100.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.8749999999999947,
+            "peak_absolute_change": 2.2994714709767736,
+            "scan_p_raw": 0.060240963855421686,
+            "signed_median_change_at_peak": 2.2994714709767736,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.6248152673429567,
+                "p_raw": 0.42168674698795183,
+                "signed_median_change": -0.5734138121363164
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.4141216953462307,
+                "p_raw": 0.8192771084337349,
+                "signed_median_change": 0.09175725717435407
+              }
+            }
+          },
+          "log_excess": {
+            "valid": true,
+            "speed_km_s": 100.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.599999999999996,
+            "peak_absolute_change": 1.5017285718946147,
+            "scan_p_raw": 0.5903614457831325,
+            "signed_median_change_at_peak": -0.6881576401688982,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.4188006567005063,
+                "p_raw": 0.7590361445783133,
+                "signed_median_change": -0.13966017963214697
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.35932463997591413,
+                "p_raw": 0.7951807228915663,
+                "signed_median_change": 0.12839687599589839
+              }
+            }
+          }
+        },
+        "passing_features": [],
+        "two_feature_radius_agreement": false,
+        "strong_dynamic_gate_support": false
+      },
+      "200": {
+        "features": {
+          "log_area": {
+            "valid": true,
+            "speed_km_s": 200.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.849999999999995,
+            "peak_absolute_change": 1.4851889813627288,
+            "scan_p_raw": 0.8674698795180723,
+            "signed_median_change_at_peak": 1.4851889813627288,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.6321531593919488,
+                "p_raw": 0.5662650602409639,
+                "signed_median_change": -0.12312825474657879
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.47298564725671244,
+                "p_raw": 0.963855421686747,
+                "signed_median_change": -0.1277649564621174
+              }
+            }
+          },
+          "centroid": {
+            "valid": true,
+            "speed_km_s": 200.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.8749999999999947,
+            "peak_absolute_change": 2.044946124092267,
+            "scan_p_raw": 0.1927710843373494,
+            "signed_median_change_at_peak": 2.044946124092267,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.7156161328037751,
+                "p_raw": 0.43373493975903615,
+                "signed_median_change": 0.4083994077214991
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.2427600787260497,
+                "p_raw": 0.9879518072289156,
+                "signed_median_change": -0.045492157003717705
+              }
+            }
+          },
+          "log_excess": {
+            "valid": true,
+            "speed_km_s": 200.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.6999999999999957,
+            "peak_absolute_change": 1.4693679975833318,
+            "scan_p_raw": 0.6506024096385542,
+            "signed_median_change_at_peak": -1.4693679975833318,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.9705912060066872,
+                "p_raw": 0.03614457831325301,
+                "signed_median_change": -0.1873136519264133
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.5599092896472851,
+                "p_raw": 0.5301204819277109,
+                "signed_median_change": 0.029605170643006357
+              }
+            }
+          }
+        },
+        "passing_features": [],
+        "two_feature_radius_agreement": false,
+        "strong_dynamic_gate_support": false
+      },
+      "300": {
+        "features": {
+          "log_area": {
+            "valid": true,
+            "speed_km_s": 300.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.4499999999999966,
+            "peak_absolute_change": 1.7311166479208935,
+            "scan_p_raw": 0.5542168674698795,
+            "signed_median_change_at_peak": -0.5546398986873828,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.6971279779776133,
+                "p_raw": 0.5180722891566265,
+                "signed_median_change": -0.6838061526846413
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.6288970354352442,
+                "p_raw": 0.8192771084337349,
+                "signed_median_change": -0.06770178897228202
+              }
+            }
+          },
+          "centroid": {
+            "valid": true,
+            "speed_km_s": 300.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.8749999999999947,
+            "peak_absolute_change": 2.3315184878564996,
+            "scan_p_raw": 0.12048192771084337,
+            "signed_median_change_at_peak": 2.3315184878564996,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.8838695875891304,
+                "p_raw": 0.27710843373493976,
+                "signed_median_change": 0.7896876332378254
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.11154153301784786,
+                "p_raw": 1.0,
+                "signed_median_change": 0.015169469872746262
+              }
+            }
+          },
+          "log_excess": {
+            "valid": true,
+            "speed_km_s": 300.0,
+            "null_common_shifts": 82,
+            "peak_radius_rsun": 2.6999999999999957,
+            "peak_absolute_change": 1.4143447744356836,
+            "scan_p_raw": 0.7951807228915663,
+            "signed_median_change_at_peak": -1.4143447744356836,
+            "candidates": {
+              "2.1": {
+                "sampled_radius_rsun": 2.099999999999998,
+                "absolute_change": 0.9580312825957951,
+                "p_raw": 0.07228915662650602,
+                "signed_median_change": -0.8970391862800302
+              },
+              "2.9": {
+                "sampled_radius_rsun": 2.899999999999995,
+                "absolute_change": 0.4625686560334325,
+                "p_raw": 0.7108433734939759,
+                "signed_median_change": 0.09742795548034472
+              }
+            }
+          }
+        },
+        "passing_features": [],
+        "two_feature_radius_agreement": false,
+        "strong_dynamic_gate_support": false
+      }
+    }
+  },
+  "periodic_tests": {
+    "january": {
+      "total_b": {
+        "2.1": {
+          "sampled_radius_rsun": 2.099999999999998,
+          "features": {
+            "log_area": {
+              "valid": false,
+              "coverage": 0.3806818181818182
+            },
+            "centroid": {
+              "valid": false,
+              "coverage": 0.3806818181818182
+            },
+            "log_excess": {
+              "valid": false,
+              "coverage": 0.3806818181818182
+            }
+          }
+        },
+        "2.5": {
+          "sampled_radius_rsun": 2.4999999999999964,
+          "features": {
+            "log_area": {
+              "valid": false,
+              "coverage": 0.5227272727272727
+            },
+            "centroid": {
+              "valid": false,
+              "coverage": 0.5227272727272727
+            },
+            "log_excess": {
+              "valid": false,
+              "coverage": 0.5227272727272727
+            }
+          }
+        },
+        "2.8": {
+          "sampled_radius_rsun": 2.7999999999999954,
+          "features": {
+            "log_area": {
+              "valid": false,
+              "coverage": 0.5255681818181818
+            },
+            "centroid": {
+              "valid": false,
+              "coverage": 0.5284090909090909
+            },
+            "log_excess": {
+              "valid": false,
+              "coverage": 0.5284090909090909
+            }
+          }
+        },
+        "2.9": {
+          "sampled_radius_rsun": 2.899999999999995,
+          "features": {
+            "log_area": {
+              "valid": false,
+              "coverage": 0.625
+            },
+            "centroid": {
+              "valid": false,
+              "coverage": 0.625
+            },
+            "log_excess": {
+              "valid": false,
+              "coverage": 0.625
+            }
+          }
+        }
+      },
+      "pb": {
+        "2.1": {
+          "sampled_radius_rsun": 2.099999999999998,
+          "features": {
+            "log_area": {
+              "valid": false,
+              "coverage": 0.5056818181818182
+            },
+            "centroid": {
+              "valid": false,
+              "coverage": 0.5056818181818182
+            },
+            "log_excess": {
+              "valid": false,
+              "coverage": 0.5056818181818182
+            }
+          }
+        },
+        "2.5": {
+          "sampled_radius_rsun": 2.4999999999999964,
+          "features": {
+            "log_area": {
+              "valid": false,
+              "coverage": 0.4971590909090909
+            },
+            "centroid": {
+              "valid": false,
+              "coverage": 0.4971590909090909
+            },
+            "log_excess": {
+              "valid": false,
+              "coverage": 0.4971590909090909
+            }
+          }
+        },
+        "2.8": {
+          "sampled_radius_rsun": 2.7999999999999954,
+          "features": {
+            "log_area": {
+              "valid": false,
+              "coverage": 0.4744318181818182
+            },
+            "centroid": {
+              "valid": false,
+              "coverage": 0.4772727272727273
+            },
+            "log_excess": {
+              "valid": false,
+              "coverage": 0.4772727272727273
+            }
+          }
+        },
+        "2.9": {
+          "sampled_radius_rsun": 2.899999999999995,
+          "features": {
+            "log_area": {
+              "valid": false,
+              "coverage": 0.48011363636363635
+            },
+            "centroid": {
+              "valid": false,
+              "coverage": 0.48011363636363635
+            },
+            "log_excess": {
+              "valid": false,
+              "coverage": 0.48011363636363635
+            }
+          }
+        }
+      }
+    },
+    "july": {
+      "080723": {
+        "total_b": {
+          "2.1": {
+            "sampled_radius_rsun": 2.099999999999998,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 80.85365853658536,
+                "band_max_power": 1.7207645876125408,
+                "ar1_phi": 0.39704411967417325,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9932516870782304
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 92.08333333333334,
+                "band_max_power": 0.7063954569472712,
+                "ar1_phi": 0.8642138494811749,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9270182454386403
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 103.59375,
+                "band_max_power": 1.3028797163702779,
+                "ar1_phi": 0.6409230348260803,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9890027493126718
+              }
+            }
+          },
+          "2.5": {
+            "sampled_radius_rsun": 2.4999999999999964,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 89.5945945945946,
+                "band_max_power": 2.5174716298342896,
+                "ar1_phi": 0.1590947399336741,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.8732816795801049
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 106.93548387096774,
+                "band_max_power": 1.0751325864919787,
+                "ar1_phi": 0.6545870335578704,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9975006248437891
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 106.93548387096774,
+                "band_max_power": 2.112261678187658,
+                "ar1_phi": 0.4314775201237272,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9645088727818045
+              }
+            }
+          },
+          "2.8": {
+            "sampled_radius_rsun": 2.7999999999999954,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 0.9909502262443439,
+                "peak_period_min": 82.875,
+                "band_max_power": 2.0111615002386865,
+                "ar1_phi": 0.1039578154330923,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9597600599850038
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 0.9909502262443439,
+                "peak_period_min": 87.23684210526315,
+                "band_max_power": 1.4123585284493643,
+                "ar1_phi": 0.37228767114382283,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9977505623594102
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 0.9909502262443439,
+                "peak_period_min": 114.3103448275862,
+                "band_max_power": 3.7392233332333453,
+                "ar1_phi": 0.2439037699607613,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.540864783804049
+              }
+            }
+          },
+          "2.9": {
+            "sampled_radius_rsun": 2.899999999999995,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 0.9411764705882353,
+                "peak_period_min": 89.5945945945946,
+                "band_max_power": 2.850722197662548,
+                "ar1_phi": 0.27382631687360376,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.8365408647838041
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 0.9411764705882353,
+                "peak_period_min": 103.59375,
+                "band_max_power": 1.9141232069923801,
+                "ar1_phi": 0.4093596744732692,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9850037490627344
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 0.9411764705882353,
+                "peak_period_min": 122.77777777777777,
+                "band_max_power": 2.028199885304473,
+                "ar1_phi": 0.3597738844981383,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9765058735316171
+              }
+            }
+          }
+        },
+        "pb": {
+          "2.1": {
+            "sampled_radius_rsun": 2.099999999999998,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 80.85365853658536,
+                "band_max_power": 1.7635008817216322,
+                "ar1_phi": 0.1424556391415327,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.984253936515871
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 106.93548387096774,
+                "band_max_power": 1.2495235176476611,
+                "ar1_phi": 0.5589603854184289,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9977505623594102
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 82.875,
+                "band_max_power": 2.586227206863923,
+                "ar1_phi": 0.352373796196614,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.8907773056735816
+              }
+            }
+          },
+          "2.5": {
+            "sampled_radius_rsun": 2.4999999999999964,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 89.5945945945946,
+                "band_max_power": 2.9778770010916076,
+                "ar1_phi": 0.08854427812321072,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.6680829792551862
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 80.85365853658536,
+                "band_max_power": 1.8072315469741267,
+                "ar1_phi": 0.2391590473659373,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9870032491877031
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 114.3103448275862,
+                "band_max_power": 3.5797691640763096,
+                "ar1_phi": 0.19847950422004926,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.5693576605848538
+              }
+            }
+          },
+          "2.8": {
+            "sampled_radius_rsun": 2.7999999999999954,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 0.9773755656108597,
+                "peak_period_min": 80.85365853658536,
+                "band_max_power": 3.502300013544447,
+                "ar1_phi": 0.00017220517400329475,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.3964008997750562
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 0.9773755656108597,
+                "peak_period_min": 82.875,
+                "band_max_power": 3.3437547131705365,
+                "ar1_phi": 0.03949496614219854,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.4888777805548613
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 0.9773755656108597,
+                "peak_period_min": 85.0,
+                "band_max_power": 4.521021449500109,
+                "ar1_phi": 0.16420235026369656,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.28367908022994254
+              }
+            }
+          },
+          "2.9": {
+            "sampled_radius_rsun": 2.899999999999995,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 0.9683257918552036,
+                "peak_period_min": 110.49999999999999,
+                "band_max_power": 4.271505421419489,
+                "ar1_phi": 0.10767233887145648,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.29967508122969255
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 0.9683257918552036,
+                "peak_period_min": 92.08333333333334,
+                "band_max_power": 2.8641788790553724,
+                "ar1_phi": -0.06331483627809327,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.5478630342414397
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 0.9683257918552036,
+                "peak_period_min": 114.3103448275862,
+                "band_max_power": 3.6414764058547116,
+                "ar1_phi": 0.23079838801757988,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.55936015996001
+              }
+            }
+          }
+        }
+      },
+      "080802": {
+        "total_b": {
+          "2.1": {
+            "sampled_radius_rsun": 2.099999999999998,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 80.85365853658536,
+                "band_max_power": 1.8155629474474662,
+                "ar1_phi": 0.403242824343558,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9885028742814297
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 92.08333333333334,
+                "band_max_power": 0.681902162698747,
+                "ar1_phi": 0.8687920806189983,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9322669332666833
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 103.59375,
+                "band_max_power": 1.3859151055519277,
+                "ar1_phi": 0.6341472284944445,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9835041239690078
+              }
+            }
+          },
+          "2.5": {
+            "sampled_radius_rsun": 2.4999999999999964,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 89.5945945945946,
+                "band_max_power": 2.3678314279162507,
+                "ar1_phi": 0.17563367054881876,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9142714321419645
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 106.93548387096774,
+                "band_max_power": 1.0689939969384985,
+                "ar1_phi": 0.7305852755825207,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9832541864533867
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 103.59375,
+                "band_max_power": 2.287976777176943,
+                "ar1_phi": 0.4089588615042081,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9480129967508123
+              }
+            }
+          },
+          "2.8": {
+            "sampled_radius_rsun": 2.7999999999999954,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 0.9819004524886877,
+                "peak_period_min": 82.875,
+                "band_max_power": 1.5879287725050164,
+                "ar1_phi": 0.1051888242495229,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9905023744063984
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 0.9819004524886877,
+                "peak_period_min": 87.23684210526315,
+                "band_max_power": 1.1162005512751498,
+                "ar1_phi": 0.3790191052793822,
+                "surrogates": 4000,
+                "p_raw_band_max": 1.0
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 0.9819004524886877,
+                "peak_period_min": 114.3103448275862,
+                "band_max_power": 4.57922634198586,
+                "ar1_phi": 0.16682570841363997,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.274431392151962
+              }
+            }
+          },
+          "2.9": {
+            "sampled_radius_rsun": 2.899999999999995,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 0.8959276018099548,
+                "peak_period_min": 89.5945945945946,
+                "band_max_power": 2.4857129531624462,
+                "ar1_phi": 0.28504428087699,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9175206198450387
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 0.8959276018099548,
+                "peak_period_min": 103.59375,
+                "band_max_power": 1.832409429560312,
+                "ar1_phi": 0.4115227489218147,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9822544363909023
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 0.8959276018099548,
+                "peak_period_min": 94.71428571428571,
+                "band_max_power": 2.7603443252807125,
+                "ar1_phi": 0.364695930831992,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.8577855536115971
+              }
+            }
+          }
+        },
+        "pb": {
+          "2.1": {
+            "sampled_radius_rsun": 2.099999999999998,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 80.85365853658536,
+                "band_max_power": 2.0498929241678105,
+                "ar1_phi": 0.15047193287761276,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.955011247188203
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 106.93548387096774,
+                "band_max_power": 1.15611616357137,
+                "ar1_phi": 0.5556412857812059,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9987503124218945
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 82.875,
+                "band_max_power": 2.3955790308701457,
+                "ar1_phi": 0.3580838593062136,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.9372656835791052
+              }
+            }
+          },
+          "2.5": {
+            "sampled_radius_rsun": 2.4999999999999964,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 89.5945945945946,
+                "band_max_power": 3.0563973282158687,
+                "ar1_phi": 0.08200023270640039,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.6573356660834792
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 122.77777777777777,
+                "band_max_power": 1.6568610974614548,
+                "ar1_phi": 0.22105023388232378,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.992001999500125
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 1.0,
+                "peak_period_min": 114.3103448275862,
+                "band_max_power": 3.743499861125835,
+                "ar1_phi": 0.18606612516105622,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.5098725318670333
+              }
+            }
+          },
+          "2.8": {
+            "sampled_radius_rsun": 2.7999999999999954,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 0.9773755656108597,
+                "peak_period_min": 80.85365853658536,
+                "band_max_power": 3.561611648504508,
+                "ar1_phi": -0.009236987494877537,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.3604098975256186
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 0.9773755656108597,
+                "peak_period_min": 82.875,
+                "band_max_power": 3.9399169954631192,
+                "ar1_phi": 0.05441956245757953,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.3264183954011497
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 0.9773755656108597,
+                "peak_period_min": 85.0,
+                "band_max_power": 4.269340198647929,
+                "ar1_phi": 0.15158987119045583,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.3241689577605599
+              }
+            }
+          },
+          "2.9": {
+            "sampled_radius_rsun": 2.899999999999995,
+            "features": {
+              "log_area": {
+                "valid": true,
+                "coverage": 0.9773755656108597,
+                "peak_period_min": 110.49999999999999,
+                "band_max_power": 3.6047628107071183,
+                "ar1_phi": 0.11792526190579519,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.5043739065233691
+              },
+              "centroid": {
+                "valid": true,
+                "coverage": 0.9773755656108597,
+                "peak_period_min": 92.08333333333334,
+                "band_max_power": 3.362177647851438,
+                "ar1_phi": -0.05435488790744125,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.3706573356660835
+              },
+              "log_excess": {
+                "valid": true,
+                "coverage": 0.9773755656108597,
+                "peak_period_min": 114.3103448275862,
+                "band_max_power": 3.0142895303182637,
+                "ar1_phi": 0.2596907489328672,
+                "surrogates": 4000,
+                "p_raw_band_max": 0.7698075481129718
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "periodic_matches": {
+    "january": {
+      "total_b": [],
+      "pb": []
+    },
+    "july": {
+      "080723": {
+        "total_b": [],
+        "pb": []
+      },
+      "080802": {
+        "total_b": [],
+        "pb": []
+      }
+    }
+  },
+  "periodic_best_single_channel": {
+    "january": {
+      "total_b": null,
+      "pb": null
+    },
+    "july": {
+      "080723": {
+        "total_b": {
+          "radius_rsun": 2.8,
+          "feature": "log_excess",
+          "p_raw": 0.540864783804049,
+          "period_min": 114.3103448275862
+        },
+        "pb": {
+          "radius_rsun": 2.8,
+          "feature": "log_excess",
+          "p_raw": 0.28367908022994254,
+          "period_min": 85.0
+        }
+      },
+      "080802": {
+        "total_b": {
+          "radius_rsun": 2.8,
+          "feature": "log_excess",
+          "p_raw": 0.274431392151962,
+          "period_min": 114.3103448275862
+        },
+        "pb": {
+          "radius_rsun": 2.8,
+          "feature": "log_excess",
+          "p_raw": 0.3241689577605599,
+          "period_min": 85.0
+        }
+      }
+    }
+  },
+  "periodic_reproduction": {
+    "january_total_b_pb": false,
+    "july_double_background": false
+  },
+  "moment_valid_fraction": {
+    "january": {
+      "total_b": {
+        "width": 0.45627951593860683,
+        "centroid": 0.45627951593860683,
+        "excess": 0.45627951593860683
+      },
+      "pb": {
+        "width": 0.508043093270366,
+        "centroid": 0.508043093270366,
+        "excess": 0.508043093270366
+      }
+    },
+    "july": {
+      "080723": {
+        "total_b": {
+          "width": 0.9557869486997764,
+          "centroid": 0.9557869486997764,
+          "excess": 0.9557869486997764
+        },
+        "pb": {
+          "width": 0.9341983317886933,
+          "centroid": 0.9341983317886933,
+          "excess": 0.9341983317886933
+        }
+      },
+      "080802": {
+        "total_b": {
+          "width": 0.9436842392193208,
+          "centroid": 0.9436842392193208,
+          "excess": 0.9436842392193208
+        },
+        "pb": {
+          "width": 0.9325628305075505,
+          "centroid": 0.9325628305075505,
+          "excess": 0.9325628305075505
+        }
+      }
+    }
+  },
+  "branch_verdict": "Imaging-only density, width, and axis observables cannot identify a slow, fast, or compound MHD shock without event-specific B, T, bulk normal velocity, and valid jump conditions."
+}
