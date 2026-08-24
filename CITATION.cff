@@ -5,7 +5,12 @@ type: software
 authors:
   - family-names: "Podladchikova"
     given-names: "Olena"
+
 version: "1.0.0"
+date-released: 2026-08-25
+doi: "10.5281/zenodo.22087646"
+repository-code: "https://github.com/epodlad/pds-source-gate-transfer"
+
 keywords:
   - solar wind
   - periodic density structures
