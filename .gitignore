@@ -13,3 +13,13 @@ analysis/frozen_programs/results/
 *.fits
 *.fts
 *.fit
+
+# Local configuration and private working material
+.env.*
+!.env.example
+/private/
+/local/
+/.codex/
+/.claude/
+*.log
+/PUBLICATION_AUDIT.md
