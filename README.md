@@ -8,6 +8,8 @@ Author: **Olena Podladchikova**
 
 ## Scope
 
+Periodic density structures (PDS) are recurring density variations observed in the solar wind. This code tests where their regular timing may arise and how it is transferred through the corona, using a sample of 12 STEREO-A/SECCHI events.
+
 This repository provides the analysis code and compact frozen data products for the 12-event STEREO-A/SECCHI PDS study. The scientific programs under `analysis/frozen_programs/` implement the event-phase and phase-jitter, nonlinear-transport, expansion-aware geometry, dynamic-geometry, and stationary-transition diagnostics used in the study. The accompanying files document the derived products, software dependencies, and reproducibility requirements.
 
 The code covers:
@@ -43,20 +45,35 @@ A mission-level confirmation of the Level-0-derived diagnostic requires a comple
 
 ## Python environment
 
-Recommended: Python 3.11 or newer.
+Recommended: Python 3.11 or newer. Download or clone this repository, open a terminal in its folder (the one containing `requirements.txt`), and create a Python environment.
+
+### macOS or Linux
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
+python3 -m venv .venv
+source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Run the archive validation checks with:
+### Windows — Command Prompt
+
+```bat
+py -3 -m venv .venv
+.venv\Scripts\activate.bat
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+### Check the compact archive
+
+In the activated environment on either system, run:
 
 ```bash
 python tests/validate_archive.py
 ```
+
+This checks the archived programs and compact data products. It does not rerun the full analysis from raw mission images; those requirements are described below.
 
 ## Reproducibility
 
