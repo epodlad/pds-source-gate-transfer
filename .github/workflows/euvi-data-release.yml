@@ -1,0 +1,45 @@
+name: Publish verified January 2008 EUVI observations
+on:
+  push:
+    branches: [recovery/euvi-20261118]
+    paths:
+      - recovery/euvi_20080111_14/verified_frames.csv
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+    env:
+      RELEASE_TAG: euvi-20080111-14-reconstruction-v1
+      SOURCE_DIR: recovery/euvi_20080111_14
+      OPENBLAS_NUM_THREADS: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install scientific dependencies
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0 astropy==7.2.4
+      - name: Rebuild both channels from GSFC
+        run: |
+          python "$SOURCE_DIR/rebuild.py" --inventory "$SOURCE_DIR/euvi_candidate_inventory.csv" --output "$RUNNER_TEMP/euvi" --workers 6
+          python "$SOURCE_DIR/validate.py" "$RUNNER_TEMP/euvi"
+          python "$SOURCE_DIR/package_release.py" "$RUNNER_TEMP/euvi" "$SOURCE_DIR/verified_frames.csv" "$RUNNER_TEMP/euvi-assets"
+      - name: Publish verified FITS archives and diagnostic sector cubes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          if gh release view "$RELEASE_TAG" --json isDraft,targetCommitish > "$RUNNER_TEMP/existing.json"; then
+            jq -e --arg sha "$GITHUB_SHA" '.isDraft and .targetCommitish == $sha' "$RUNNER_TEMP/existing.json" > /dev/null
+          else
+            gh release create "$RELEASE_TAG" --target "$GITHUB_SHA" --draft --prerelease --latest=false --title "STEREO-A EUVI 171 and 195 Å, 11–14 January 2008" --notes-file "$SOURCE_DIR/RELEASE.md"
+          fi
+          gh release upload "$RELEASE_TAG" "$RUNNER_TEMP/euvi-assets/"* --clobber
+          test "$(gh release view "$RELEASE_TAG" --json assets --jq '.assets | length')" -eq 11
+          gh release edit "$RELEASE_TAG" --draft=false --prerelease --latest=false
