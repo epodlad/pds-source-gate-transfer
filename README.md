@@ -35,7 +35,15 @@ The code covers:
 
 ## Data and full image-level reproduction
 
-Raw STEREO/SECCHI observations are not redistributed and remain available from the mission archive.
+The v1.0.0 software archive contains compact products. The [January 2008 reconstruction and test results](https://github.com/epodlad/pds-source-gate-transfer/tree/recovery/euvi-20261118/recovery) include recovered COR1 maps, an executable 12-event phase test, and the [EUVI frame inventory](https://github.com/epodlad/pds-source-gate-transfer/blob/recovery/euvi-20261118/recovery/euvi_20080111_14/euvi_candidate_inventory.csv). The exact original EUVI frame selection and statistical extraction remain open. The reconstruction covers 11 January 2008 at 12:00 UTC to 14 January at 00:00 UTC.
+
+| STEREO-A observation | Data provenance | Mission dataset DOI |
+|---|---|---|
+| EUVI 171 and 195 Å | The reconstruction reads individual Level 0.5 brightness FITS from the [NASA GSFC STEREO Science Center](https://stereo-ssc.nascom.nasa.gov/pub/ins_data/secchi/L0/a/img/euvi/). The inventory lists the individual file URLs. | [10.48322/260z-fs61](https://doi.org/10.48322/260z-fs61) |
+| COR1 polarization triplets | The original nonlinear-transport code reads the [NRL SECCHI post-flight sequence archive](https://secchi.nrl.navy.mil/postflight/cor1/L0/a/seq/). The processed-image sensitivity comparison used Helioviewer JP2 images. | [10.48322/9fer-5m90](https://doi.org/10.48322/9fer-5m90) |
+| COR2 | Event anchors are preserved in the [event table](data/event_phase_jitter_table.csv). The original frame list and retrieval mirror remain to be identified. | [10.48322/qfy4-7q03](https://doi.org/10.48322/qfy4-7q03) |
+
+The original compact software release is archived on [Zenodo, 10.5281/zenodo.22087646](https://doi.org/10.5281/zenodo.22087646). The [AASTeX data-availability text](manuscript/data_availability.tex) includes the versioned software DOI, mission dataset citations and the archive locations.
 
 Some analysis scripts require intermediate image cubes or archive-derived products that are not included in this compact repository. A full image-level rerun therefore requires the corresponding public STEREO/SECCHI observations and the appropriate SECCHI calibration environment.
 

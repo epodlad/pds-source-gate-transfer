@@ -1,0 +1,27 @@
+% Insert in the manuscript's Data and Software Availability section.
+% AASTeX supplies \dataset. The fallback also supports local article-class proofs.
+\providecommand{\dataset}[2][]{\url{#2}}
+The software and compact numerical products for the 12-event analysis are available at
+\url{https://github.com/epodlad/pds-source-gate-transfer}.
+Version 1.0.0 is archived at
+\dataset[doi:10.5281/zenodo.22087646]{https://doi.org/10.5281/zenodo.22087646}.
+The archive contains the event table, event-phase and timing statistics, height
+diagnostics, and selected maps and posteriors. The repository also provides
+recovery scripts and a frame inventory for the subsequent January 2008 EUVI reconstruction.
+
+For that reconstruction we retrieved STEREO-A/SECCHI EUVI brightness images from
+the NASA Goddard STEREO Science Center at
+\url{https://stereo-ssc.nascom.nasa.gov/pub/ins_data/secchi/L0/a/img/euvi/}.
+The mission distributes these FITS files as Level~0.5 in its L0 directory.
+The recovery uses exposure-normalized detector counts.
+The frozen COR1 nonlinear-transport program retrieved polarization sequences from
+the Naval Research Laboratory archive at
+\url{https://secchi.nrl.navy.mil/postflight/cor1/L0/a/seq/}.
+The corresponding mission datasets are
+EUVI \dataset[doi:10.48322/260z-fs61]{https://doi.org/10.48322/260z-fs61},
+COR1 \dataset[doi:10.48322/9fer-5m90]{https://doi.org/10.48322/9fer-5m90},
+and COR2 \dataset[doi:10.48322/qfy4-7q03]{https://doi.org/10.48322/qfy4-7q03}.
+The archived COR2 event times are available in the event tables.
+The exact original EUVI frame selection, the original COR2 frame list, and the
+EUVI source-extraction and null-generation implementation remain unresolved.
+Mission-level calibration requires the appropriate \texttt{SECCHI\_PREP} processing.
