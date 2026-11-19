@@ -1,0 +1,46 @@
+{
+  "171": {
+    "frames": 358,
+    "geometry": {
+      "1*angle+0": -0.6473786514742638,
+      "1*angle+90": 0.653235514624331,
+      "1*angle+180": -0.7370853063402002,
+      "1*angle+270": 0.7304382150493639,
+      "-1*angle+0": -0.6648664456993383,
+      "-1*angle+90": 0.9861423935907875,
+      "-1*angle+180": -0.7680239086302308,
+      "-1*angle+270": 0.6864497994808151
+    },
+    "diagnostic": {
+      "in_band_peak_min": 85.71428571428571,
+      "power_fraction": 0.0011463683526495845,
+      "fitted_phi": 0.9956787260706709,
+      "n_sim": 20000,
+      "exceedances": 20000,
+      "conditional_ar1_p": 1.0,
+      "scope": "New statistic and fitted stationary Gaussian AR(1) null; conditional on ROI and null parameters."
+    }
+  },
+  "195": {
+    "frames": 358,
+    "geometry": {
+      "1*angle+0": -0.18358878101620588,
+      "1*angle+90": 0.03731032607306513,
+      "1*angle+180": -0.4340296493623862,
+      "1*angle+270": 0.29766611033826906,
+      "-1*angle+0": -0.6771943709696225,
+      "-1*angle+90": 0.9902475710489469,
+      "-1*angle+180": -0.2266878663753996,
+      "-1*angle+270": 0.2440096773972908
+    },
+    "diagnostic": {
+      "in_band_peak_min": 124.13793103448276,
+      "power_fraction": 0.00075291557229472,
+      "fitted_phi": 0.9959744744656474,
+      "n_sim": 20000,
+      "exceedances": 20000,
+      "conditional_ar1_p": 1.0,
+      "scope": "New statistic and fitted stationary Gaussian AR(1) null; conditional on ROI and null parameters."
+    }
+  }
+}

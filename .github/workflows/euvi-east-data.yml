@@ -1,0 +1,35 @@
+name: Reconstruct January 2008 east-limb EUVI data
+on:
+  push:
+    branches: [recovery/euvi-east-20261119]
+    paths: ['recovery/euvi_east_20080111_14/**', '.github/workflows/euvi-east-data.yml']
+permissions:
+  contents: read
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SRC: recovery/euvi_east_20080111_14
+      IN_TAG: euvi-20080111-14-reconstruction-v1
+      OUT_TAG: euvi-20080111-14-east-limb-v1
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install numpy==2.3.5 scipy==1.17.0
+      - run: |
+          mkdir inputs outputs
+          gh release download "$IN_TAG" -p '*_fits.zip' -p 'verified_frames.csv' -D inputs
+          python "$SRC/full_frame_check.py" inputs/verified_frames.csv inputs outputs --save-cubes
+          python "$SRC/verify_release.py" outputs
+          cp "$SRC/README.md" "$SRC"/path_*.csv inputs/verified_frames.csv outputs/
+          (cd outputs && sha256sum *.npz *.csv *.json README.md > SHA256SUMS.txt)
+          gh release create "$OUT_TAG" --target "$GITHUB_SHA" --prerelease --latest=false --title 'East-limb EUVI diagnostic cubes and time series, 11–14 January 2008' --notes-file "$SRC/README.md" outputs/*
