@@ -1,27 +1,40 @@
-% Insert in the manuscript's Data and Software Availability section.
-% AASTeX supplies \dataset. The fallback also supports local article-class proofs.
-\providecommand{\dataset}[2][]{\url{#2}}
-The software and compact numerical products for the 12-event analysis are available at
-\url{https://github.com/epodlad/pds-source-gate-transfer}.
-Version 1.0.0 is archived at
+% Replace the body of the Data and Software Availability section.
+% Requires AASTeX with \dataset and \url.
+The reproducibility materials include the manuscript source, figure-generation
+programs, the 12-event table, compact posterior and map products, and the
+analysis scripts for height localization, event phase, spatial expansion,
+nonlinear paths, dynamic geometry, and the stationary-transition test.
+The analysis software and compact numerical products are available on GitHub
+(\url{https://github.com/epodlad/pds-source-gate-transfer}). Version 1.0.0 is
+archived on Zenodo at
 \dataset[doi:10.5281/zenodo.22087646]{https://doi.org/10.5281/zenodo.22087646}.
-The archive contains the event table, event-phase and timing statistics, height
-diagnostics, and selected maps and posteriors. The repository also provides
-recovery scripts and a frame inventory for the subsequent January 2008 EUVI reconstruction.
 
-For that reconstruction we retrieved STEREO-A/SECCHI EUVI brightness images from
-the NASA Goddard STEREO Science Center at
-\url{https://stereo-ssc.nascom.nasa.gov/pub/ins_data/secchi/L0/a/img/euvi/}.
-The mission distributes these FITS files as Level~0.5 in its L0 directory.
-The recovery uses exposure-normalized detector counts.
-The frozen COR1 nonlinear-transport program retrieved polarization sequences from
-the Naval Research Laboratory archive at
-\url{https://secchi.nrl.navy.mil/postflight/cor1/L0/a/seq/}.
-The corresponding mission datasets are
-EUVI \dataset[doi:10.48322/260z-fs61]{https://doi.org/10.48322/260z-fs61},
-COR1 \dataset[doi:10.48322/9fer-5m90]{https://doi.org/10.48322/9fer-5m90},
-and COR2 \dataset[doi:10.48322/qfy4-7q03]{https://doi.org/10.48322/qfy4-7q03}.
-The archived COR2 event times are available in the event tables.
-The exact original EUVI frame selection, the original COR2 frame list, and the
-EUVI source-extraction and null-generation implementation remain unresolved.
-Mission-level calibration requires the appropriate \texttt{SECCHI\_PREP} processing.
+The observations are from STEREO-A/SECCHI. For the EUVI reconstruction covering
+2008 January 11 at 12:00 UT through January 14 at 00:00 UT, we retrieved the
+171 and 195~\AA\ Level~0.5 brightness FITS files from the NASA GSFC STEREO
+Science Center
+(\url{https://stereo-ssc.nascom.nasa.gov/pub/ins_data/secchi/L0/a/img/euvi/};
+EUVI dataset \dataset[doi:10.48322/260z-fs61]{https://doi.org/10.48322/260z-fs61}).
+A separate \href{https://github.com/epodlad/pds-source-gate-transfer/releases/tag/euvi-20080111-14-reconstruction-v1}{EUVI observation release}
+provides 716 full-resolution FITS, individual source URLs and SHA-256 checksums.
+The \href{https://github.com/epodlad/pds-source-gate-transfer/releases/tag/euvi-20080111-14-east-limb-v1}{east-limb reconstruction}
+provides the eastern diagnostic cubes, digitized source paths and
+exposure-normalized time series. The original observation release includes
+a preliminary sector extraction with a different angular convention. Each reconstructed channel has 358 frames.
+The original 171~\AA\ analysis records 357 frames. Its exact selection and
+statistical implementation have yet to be recovered.
+
+The frozen COR1 Level-0 nonlinear-transport program retrieves polarization
+sequences from the Naval Research Laboratory SECCHI post-flight archive
+(\url{https://secchi.nrl.navy.mil/postflight/cor1/L0/a/seq/};
+COR1 dataset \dataset[doi:10.48322/9fer-5m90]{https://doi.org/10.48322/9fer-5m90}).
+The separate processed-image sensitivity analysis used Helioviewer JP2 images.
+The COR2 dataset is
+\dataset[doi:10.48322/qfy4-7q03]{https://doi.org/10.48322/qfy4-7q03}.
+The event tables preserve the selected COR2 times. The exact original COR2
+frame manifest and retrieval mirror remain unresolved.
+
+The documentation distinguishes regeneration from compact products from
+image-level reproduction. The Level-0-derived COR1 diagnostics and the
+exposure-normalized EUVI reconstruction use different preprocessing from a
+full \texttt{SECCHI\_PREP} Level-1 analysis.
