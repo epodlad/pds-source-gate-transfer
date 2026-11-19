@@ -6,6 +6,8 @@ Research software and compact data products associated with the manuscript:
 
 Author: **Olena Podladchikova**
 
+The [January 2008 reproducibility record](recovery/article1_20080111_14/README.md) and [EUVI reconstruction](recovery/euvi_20080111_14/README.md) are available on this recovery branch.
+
 ## Scope
 
 Periodic density structures (PDS) are recurring density variations observed in the solar wind. This code tests where their regular timing may arise and how it is transferred through the corona, using a sample of 12 STEREO-A/SECCHI events.

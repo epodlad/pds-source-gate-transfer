@@ -1,0 +1,102 @@
+{
+  "scope": "Saved results only; no FITS, spectra or null trials rerun",
+  "BH_checks": [
+    {
+      "file": "euvi171_lower_resonator_results.json",
+      "group": "metrics",
+      "p_field": "p_red_noise_raw",
+      "n": 12,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "file": "euvi171_lower_resonator_results.json",
+      "group": "metrics",
+      "p_field": "p_red_noise_filter_matched",
+      "n": 12,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "file": "euvi171_lower_resonator_results.json",
+      "group": "metrics",
+      "p_field": "p_phase_circular_shift",
+      "n": 12,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "file": "euvi171_lower_resonator_results.json",
+      "group": "svd_modes",
+      "p_field": "p_red_noise",
+      "n": 12,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "file": "euvi171_lower_resonator_results.json",
+      "group": "svd_modes",
+      "p_field": "p_phase_circular_shift",
+      "n": 12,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "file": "euvi195_lower_resonator_results.json",
+      "group": "metrics",
+      "p_field": "p_red_noise_raw",
+      "n": 12,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "file": "euvi195_lower_resonator_results.json",
+      "group": "metrics",
+      "p_field": "p_red_noise_filter_matched",
+      "n": 12,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "file": "euvi195_lower_resonator_results.json",
+      "group": "metrics",
+      "p_field": "p_phase_circular_shift",
+      "n": 12,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "file": "euvi195_lower_resonator_results.json",
+      "group": "svd_modes",
+      "p_field": "p_red_noise",
+      "n": 12,
+      "max_error": 0.0,
+      "passed": true
+    },
+    {
+      "file": "euvi195_lower_resonator_results.json",
+      "group": "svd_modes",
+      "p_field": "p_phase_circular_shift",
+      "n": 12,
+      "max_error": 0.0,
+      "passed": true
+    }
+  ],
+  "preprint_page7_values": {
+    "metric": "brightness_1.10_1.20R",
+    "mean_height_rsun": 1.15,
+    "source_to_3R_delay_min": 107.25375000000001,
+    "phi_ar1": 0.99,
+    "dominant_period_raw_min": 128.2142857142857,
+    "p_red_noise_raw": 0.03493100459969335,
+    "dominant_period_filter_matched_min": 128.2142857142857,
+    "p_red_noise_filter_matched": 0.027864809012732486,
+    "phase_vector_R": 0.06641396443780859,
+    "mean_phase_rad": 1.4015543397243013,
+    "p_phase_circular_shift": 0.9111111111111111,
+    "n_events": 21,
+    "q_BH_red_noise_raw": 0.2530497966802213,
+    "q_BH_red_noise_filter_matched": 0.33437770815278983,
+    "q_BH_phase_circular_shift": 0.9111111111111111
+  }
+}
