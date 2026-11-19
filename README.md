@@ -37,6 +37,8 @@ The code covers:
 
 The v1.0.0 software archive contains compact products. The [January 2008 reconstruction and test results](https://github.com/epodlad/pds-source-gate-transfer/tree/recovery/euvi-20261118/recovery) include recovered COR1 maps, an executable 12-event phase test, and the [EUVI frame inventory](https://github.com/epodlad/pds-source-gate-transfer/blob/recovery/euvi-20261118/recovery/euvi_20080111_14/euvi_candidate_inventory.csv). The exact original EUVI frame selection and statistical extraction remain open. The reconstruction covers 11 January 2008 at 12:00 UTC to 14 January at 00:00 UTC.
 
+The [January 2008 EUVI data release](https://github.com/epodlad/pds-source-gate-transfer/releases/tag/euvi-20080111-14-reconstruction-v1) provides 716 full-resolution mission FITS in six archives, two reconstructed sector cubes in DN/s, and a frame-by-frame manifest with source URLs and SHA-256 checksums. Each reconstructed channel contains 358 exposures. The historical report lists 357 exposures at 171 Å and 358 at 195 Å.
+
 | STEREO-A observation | Data provenance | Mission dataset DOI |
 |---|---|---|
 | EUVI 171 and 195 Å | The reconstruction reads individual Level 0.5 brightness FITS from the [NASA GSFC STEREO Science Center](https://stereo-ssc.nascom.nasa.gov/pub/ins_data/secchi/L0/a/img/euvi/). The inventory lists the individual file URLs. | [10.48322/260z-fs61](https://doi.org/10.48322/260z-fs61) |
