@@ -1,0 +1,14 @@
+{
+  "cor1a_secchi_background_fitpol_sector_15min.npz": "results/pds_20080111_14_nonlinear_level0/secchi_background_compression/cor1a_secchi_background_fitpol_sector_15min.npz",
+  "pds_20080111_14_level0_nonlinear_transport_maps.npz": "results/pds_20080111_14_nonlinear_level0/pds_20080111_14_level0_nonlinear_transport_maps.npz",
+  "pds_20080111_14_level0_nonlinear_transport_results.json": "results/pds_20080111_14_nonlinear_level0/pds_20080111_14_level0_nonlinear_transport_results.json",
+  "pds_20080111_14_event_phase_jitter_results.json": "results/pds_20080111_14_nonlinear_level0/event_phase_jitter/pds_20080111_14_event_phase_jitter_results.json",
+  "pds_20080113_secchi_background_compression_results.json": "results/pds_20080111_14_nonlinear_level0/secchi_background_compression/pds_20080113_secchi_background_compression_results.json",
+  "cor1a_20080726_28_calibrated_080723_15min.npz": "results/pds_20080726_source_gate/cor1a_20080726_28_calibrated_080723_15min.npz",
+  "cor1a_20080726_28_calibrated_080802_15min.npz": "results/pds_20080726_source_gate/cor1a_20080726_28_calibrated_080802_15min.npz",
+  "pds_20080726_source_gate_maps_no_BH.npz": "results/pds_20080726_source_gate/pds_20080726_source_gate_maps_no_BH.npz",
+  "pds_20080726_calibrated_background_sensitivity_no_BH.json": "results/pds_20080726_source_gate/pds_20080726_calibrated_background_sensitivity_no_BH.json",
+  "pds_20080726_calibrated_xfront_sensitivity_no_BH.json": "results/pds_20080726_2d_xfront/pds_20080726_calibrated_xfront_sensitivity_no_BH.json",
+  "cor1a_level0_fitpol_sector_15min.npz": "results/pds_20080111_14_nonlinear_level0/cor1a_level0_fitpol_sector_15min.npz",
+  "pds_20080113_event09_event12_fixed_360min_pair_null.csv": "results/pds_20080111_14_nonlinear_level0/two_candidate_2d_xfront/pds_20080113_event09_event12_fixed_360min_pair_null.csv"
+}
