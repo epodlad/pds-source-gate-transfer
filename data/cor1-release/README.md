@@ -1,5 +1,7 @@
 # STEREO-A streamer maps and control intervals
 
+The [Zenodo data version](https://doi.org/10.5281/zenodo.24604508) contains the 17 requested cubes and derived maps, including the separately named Helioviewer reconstruction. [Validation results](validation.md) · [GitHub inventory](github_manifest.csv) · [SHA-256 for every GitHub asset](github_checksums.sha256) · [SHA-256 for every Zenodo file](zenodo_checksums.sha256). The GitHub release retains the original attachments and adds cor1_helioviewer_reconstruction_audit.zip, with the comparison code, JSON and supplement checksums. The two Helioviewer sector filenames on GitHub have identical bytes.
+
 [Download the release assets](https://github.com/epodlad/pds-source-gate-transfer/releases/tag/data-cubes-20080111-14-v1). The [file inventory](manifest.csv) lists the scientific contents, producer, reader, size and SHA-256. The inventory inside the revision ZIP lists its members. The source observations are from the STEREO/SECCHI team. [COR1 mission data](https://doi.org/10.48322/9fer-5m90) · [EUVI mission data](https://doi.org/10.48322/260z-fs61)
 
 From a fresh checkout of the tagged repository, install the requirements and run:
@@ -51,4 +53,18 @@ python extract.py fits-cache rerun/frames.csv rerun/padding.csv rerun/sector.npz
 python compare.py rerun/sector.npz ../../COR1_height_recovery/source/ridge_onset_results.json rerun/frames.csv rerun/results
 ```
 
-The original Helioviewer COR1 sector cache was not located. Its historical reduced transport map is distributed. The frozen analyze_pds_nonlinear_transport_20080111_14.py contains the original cache retrieval logic. A newly downloaded JP2 series should be compared against the archived map before treating the two series as equivalent.
+### Reconstruction of the archived Helioviewer input
+
+The separately named cor1a_hv_polar_sector_15min_reconstruction.npz contains processed, photometrically uncalibrated 8-bit COR1-A total brightness from Helioviewer JPEG2000, source ID 28. The frozen program makes the sector cube from the archive's original times and sampling. The archived transport maps retain their original bytes. The original sector-cube checksum is unavailable.
+
+To run from the reconstructed input, start from a repository checkout with the release downloaded to assets.
+
+```sh
+mkdir -p hv-rerun/results/pds_20080111_14_nonlinear
+cp analysis/frozen_programs/analyze_pds_nonlinear_transport_20080111_14.py hv-rerun/
+cp assets/cor1a_hv_polar_sector_15min_reconstruction.npz hv-rerun/results/pds_20080111_14_nonlinear/cor1a_hv_polar_sector_15min.npz
+python hv-rerun/analyze_pds_nonlinear_transport_20080111_14.py
+python assets/compare_transport_maps.py assets/pds_20080111_14_nonlinear_transport_maps.npz hv-rerun/results/pds_20080111_14_nonlinear/pds_20080111_14_nonlinear_transport_maps.npz
+```
+
+Each of the eight derived map arrays reproduces all finite values and missing pixels. The accompanying helioviewer_reconstruction_verification.json gives Pearson correlations, median signed differences and maximum absolute differences. The event-9 and event-12 node radii and Figure 8b require a separate Level-0 analysis with both total and polarized brightness. The same JSON lists the Level-0 rerun results.

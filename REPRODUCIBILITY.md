@@ -1,5 +1,7 @@
 # Reproducibility boundary
 
+The [Zenodo data version](https://doi.org/10.5281/zenodo.24604508) contains the 17 requested cubes and derived maps, including the separately named Helioviewer reconstruction.
+
 This archive intentionally distinguishes two levels of reproducibility.
 
 ## 1. Compact frozen products

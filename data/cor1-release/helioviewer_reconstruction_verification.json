@@ -1,0 +1,146 @@
+{
+  "public_source": "Helioviewer JPEG2000, source ID 28, processed 8-bit COR1-A total brightness; photometrically uncalibrated",
+  "original_cube_checksum": null,
+  "reconstructed_cube_sha256": "aa716c71f373c04fbcea13aff0e3d41f33ceb1d5f0d2cdcbbb4b1cac471b20e0",
+  "intensity_shape_time_radius_angle": [
+    352,
+    77,
+    71
+  ],
+  "first_last_observed_utc": [
+    "2008-01-10T14:05:00.004000+00:00",
+    "2008-01-14T05:50:00.008000+00:00"
+  ],
+  "frozen_program_sha256": "2bc1ebf083d4bfbfbbe9a29e14451a5f6069e9a54ea5cdb07d350b422336df00",
+  "historical_transport_map_sha256": "8d06e2a4fdc64765f0407763ea95bfbe320cf68bb43223efee9c0526e3edaadb",
+  "frozen_transport_json_matches_archived": true,
+  "transport_map_arrays": {
+    "minutes": {
+      "shape": [
+        351
+      ],
+      "finite_pairs": 351,
+      "finite_mask_equal": true,
+      "arrays_equal_including_nan": true,
+      "pearson_r": 1.0,
+      "median_signed_difference": 0.0,
+      "max_abs_difference": 0.0
+    },
+    "radii": {
+      "shape": [
+        58
+      ],
+      "finite_pairs": 58,
+      "finite_mask_equal": true,
+      "arrays_equal_including_nan": true,
+      "pearson_r": 1.0,
+      "median_signed_difference": 0.0,
+      "max_abs_difference": 0.0
+    },
+    "zmap": {
+      "shape": [
+        351,
+        58
+      ],
+      "finite_pairs": 20358,
+      "finite_mask_equal": true,
+      "arrays_equal_including_nan": true,
+      "pearson_r": 1.0,
+      "median_signed_difference": 0.0,
+      "max_abs_difference": 0.0
+    },
+    "raw_bff": {
+      "shape": [
+        351,
+        58
+      ],
+      "finite_pairs": 20358,
+      "finite_mask_equal": true,
+      "arrays_equal_including_nan": true,
+      "pearson_r": 1.0,
+      "median_signed_difference": 0.0,
+      "max_abs_difference": 0.0
+    },
+    "lags": {
+      "shape": [
+        62
+      ],
+      "finite_pairs": 62,
+      "finite_mask_equal": true,
+      "arrays_equal_including_nan": true,
+      "pearson_r": 0.9999999999999998,
+      "median_signed_difference": 0.0,
+      "max_abs_difference": 0.0
+    },
+    "event_stack": {
+      "shape": [
+        62,
+        58
+      ],
+      "finite_pairs": 3596,
+      "finite_mask_equal": true,
+      "arrays_equal_including_nan": true,
+      "pearson_r": 0.9999999999999998,
+      "median_signed_difference": 0.0,
+      "max_abs_difference": 0.0
+    },
+    "traced_path_pa": {
+      "shape": [
+        77
+      ],
+      "finite_pairs": 77,
+      "finite_mask_equal": true,
+      "arrays_equal_including_nan": true,
+      "pearson_r": 0.9999999999999998,
+      "median_signed_difference": 0.0,
+      "max_abs_difference": 0.0
+    },
+    "event_times": {
+      "shape": [
+        12
+      ],
+      "finite_pairs": 12,
+      "finite_mask_equal": true,
+      "arrays_equal_including_nan": true,
+      "pearson_r": 1.0,
+      "median_signed_difference": 0.0,
+      "max_abs_difference": 0.0
+    }
+  },
+  "analysis_type": "Reconstruction of the archived input",
+  "native_level0_replay": {
+    "source": "Separate frozen Level-0 tB/pB analysis; Helioviewer total brightness alone has no pB",
+    "nodes_rsun": {
+      "event9": [
+        1.775,
+        2.125,
+        2.5,
+        2.825
+      ],
+      "event12": [
+        1.95,
+        2.35,
+        2.7
+      ]
+    },
+    "panel_b": {
+      "fixed": {
+        "k": 0,
+        "N": 131,
+        "p": 0.007575757575757576
+      },
+      "spherical": {
+        "k": 0,
+        "N": 131,
+        "p": 0.007575757575757576
+      },
+      "measured": {
+        "k": 2,
+        "N": 131,
+        "p": 0.022727272727272728
+      }
+    }
+  },
+  "frozen_program_input_name": "cor1a_hv_polar_sector_15min.npz",
+  "distribution_name": "cor1a_hv_polar_sector_15min_reconstruction.npz"
+}

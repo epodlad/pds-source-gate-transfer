@@ -1,5 +1,7 @@
 # Compact frozen data products
 
+The [Zenodo data version](https://doi.org/10.5281/zenodo.24604508) contains the 17 requested cubes and derived maps, including the separately named Helioviewer reconstruction.
+
 This directory contains derived products, not raw STEREO/SECCHI FITS observations.
 
 [January COR1 data cubes, X-front maps, control intervals, EUVI time series and reproduction commands](cor1-release/README.md)
